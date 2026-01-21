@@ -1,29 +1,28 @@
-# Power-Sector-Reliability-SAIDI-SAIFI-MAIFI-Analysis
-This Project is still in process! Review other projects.
+# ⚡ Power Reliability Analysis using SAIDI, SAIFI & MAIFI
 
-# SAIDI, SAIFI & MAIFI Power Reliability Analysis
+This repository presents an end-to-end **power distribution reliability analysis** using standard utility indices—**SAIDI**, **SAIFI**, and **MAIFI**—to identify loss-prone areas, assess feeder performance, and evaluate the reliability impact of **solar renewable integration**.
 
-This repository analyzes power distribution reliability using standard indices—**SAIDI**, **SAIFI**, and **MAIFI**—to identify loss-prone areas, evaluate feeder performance, and assess the reliability impact of **solar renewable integration**.
-
-The project uses **SQL, Excel, Python, and Power BI** to process outage data, benchmark performance against Indian utility standards (e.g., Torrent Power–style metrics), and generate actionable improvement recommendations.
+The project uses **SQL, Excel, Python, and Power BI** to process outage data, visualize reliability trends, and recommend actionable improvements inspired by **real-world Indian utility benchmarks** (e.g., Torrent Power).
 
 ---
 
-## Project Objectives
+## 🎯 Project Objectives
 
-- Calculate SAIDI, SAIFI, and MAIFI from outage data  
-- Identify high-loss feeders, regions, and sectors  
-- Compare urban vs rural and solar-integrated networks  
-- Visualize reliability trends and heatmaps  
-- Recommend targeted actions to reduce outage frequency and duration  
+- 📉 Measure power reliability using SAIDI, SAIFI, and MAIFI  
+- 🗺️ Identify **high-loss feeders, regions, and sectors**  
+- 🏙️ Compare **urban vs rural** distribution performance  
+- ☀️ Analyze reliability impact of **solar-integrated networks**  
+- 🛠️ Recommend targeted actions to reduce outages and restoration time  
 
 ---
 
-## Reliability Indices
+## 📊 Reliability Indices Explained
 
 - **SAIFI (System Average Interruption Frequency Index)**  
   Average number of interruptions per customer
 
+- **SAIDI (System Average Interruption Duration Index)**  
+Average outage duration per customer  
 
 - **MAIFI (Momentary Average Interruption Frequency Index)**  
 Momentary interruptions (< 5 minutes), critical for solar-heavy feeders  
