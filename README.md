@@ -66,6 +66,7 @@ Momentary interruptions (< 5 minutes), critical for solar-heavy feeders
 
 Targeted improvements can reduce **SAIDI by 20–30%** on worst-performing feeders.
 
+## This project is still under process, PLease review other projects.
 1). Sales Insights - Brick & Mortar Business :- https://github.com/rityujsingh08/Project_SQL-Power_BI
 
 2). Flight Delay Analysis :-https://github.com/rityujsingh08/Flight_delay_analysis
