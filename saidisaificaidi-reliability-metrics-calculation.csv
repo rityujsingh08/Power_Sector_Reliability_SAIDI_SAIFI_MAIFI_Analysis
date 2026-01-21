@@ -1,0 +1,501 @@
+record_id,report_date,system_id,feeder_id,feeder_name,is_system_wide,saidi,saifi,caidi,maifi,customer_count,total_interruptions,total_momentary_interruptions,notes
+R001,2023-03-15,SYS-MIDLAND-01,,,true,78.2,1.25,62.6,1.1,32850,132,19,"Annual reliability report; Midland utility serving urban and suburban loads, typical performance year."
+R002,2024-01-29,SYS-CENTRAL-02,CENTRAL-023,Central Park West,false,45.7,1.86,24.6,8.2,2210,34,47,Frequent momentary interruptions due to windstorms in early 2024; urban feeder serving mixed residential.
+R003,2022-05-17,SYS-HARBOR-03,,,true,64.1,1.09,58.7,0.6,48150,97,28,"System-wide report for Harbor region; infrastructure upgrades completed, reliability improved."
+R004,2020-09-13,SYS-NORTH-04,,,true,0,0,0,0,0,0,0,"Boundary test case: zero customers, zero interruptions, system was offline for maintenance period."
+R005,2023-07-05,SYS-EAST-05,EAST-101,Eastside Commercial,false,68.9,2.1,32.8,0.9,3100,44,8,"Feeder-level report; construction activity led to increased interruptions, mostly commercial customers."
+R006,2022-12-09,SYS-GLEN-06,GLEN-007,Glenwood Estates,false,94.2,1.74,54.1,2.3,1675,29,10,"Aging infrastructure in Glenwood Estates, moderate number of sustained and momentary interruptions."
+R007,2024-02-16,SYS-VALLEY-07,VALLEY-056,Valley View,false,22.9,0.93,24.6,8.4,3650,13,41,High momentary interruption rate due to ice storms; Valley View feeder serving dense residential area.
+R008,2021-08-22,SYS-LAKE-08,,,true,25.3,0.74,34.2,1.2,17440,25,6,"Lake region annual reliability report; performance stable, minor interruptions due to line faults."
+R009,2023-10-01,SYS-RIVER-09,RIVER-022,River Bend Rural,false,133.8,1.25,107,2.9,950,21,5,"Rural feeder with elevated CAIDI; multiple outages from summer storms, long restoration times."
+R010,2020-11-17,SYS-PINE-10,PINE-390,Pine Grove,false,76.5,1.32,57.9,,1350,17,7,"Pine Grove feeder, momentary interruptions data incomplete, mostly residential and small commercial."
+R011,2023-06-11,SYS-COAST-11,,,true,11250.4,791.6,9999,10.5,91700,900,75,Extreme weather event hit entire Coast system; record outage duration and frequency in June 2023.
+R012,2022-04-27,SYS-HILL-12,HILL-078,Hilltop Rural,false,302.8,1.56,125.9,,1550,39,9,Rural feeder with long restoration times; vegetation and terrain challenges increased CAIDI.
+R013,2021-02-13,SYS-METRO-13,,,true,18.7,0.62,30.1,0.3,20400,18,2,Metro system annual summary; lowest interruption rates among all regional systems.
+R014,2023-09-19,SYS-FOREST-14,,,true,41.2,1.11,37.2,0.8,42150,82,12,"System-wide report for Forest region; moderate interruptions, no major events reported."
+R015,2022-07-23,SYS-ROCK-15,ROCK-045,Rockville Main,false,101.6,2.62,38.8,0.7,4200,43,6,"Rockville feeder affected by construction, elevated interruption frequency during summer 2022."
+R016,2023-05-22,SYS-SOUTH-16,,,true,95.4,1.76,54.2,0.9,36400,158,35,South system annual metrics; higher interruptions due to spring thunderstorms.
+R017,2021-12-25,SYS-PARK-17,PARK-137,Parkside North,false,0,0,0,,0,0,0,"Boundary case: new feeder, no customers, no events as of end of 2021."
+R018,2023-11-04,SYS-BRIDGE-18,,,true,87.3,1.31,66.7,1.3,50900,120,23,Bridge region system-wide metrics; improved reliability after substation upgrades.
+R019,2022-03-08,SYS-PLAIN-19,PLAIN-091,Plains Rural South,false,289.5,1.02,110.1,3.1,700,36,7,"Rural feeder report; severe winter affected restoration times, high CAIDI."
+R020,2020-12-30,SYS-URBAN-20,,,true,12500,900,9999,10,94000,900,75,Major urban blackout during winter storm; extreme metrics for testing system response.
+R021,2024-03-09,SYS-SUNNY-21,,,true,53.4,1.01,52.8,1,29450,102,24,"Sunny region system-wide report; moderate reliability metrics, no major events."
+R022,2023-08-13,SYS-BAY-22,BAY-019,Bayview Industrial,false,112.4,2.31,48.6,1.4,3200,37,9,Industrial feeder affected by equipment failure; elevated interruption rates in summer.
+R023,2022-06-02,SYS-GOLD-23,GOLD-011,Goldcrest Heights,false,89.8,1.17,76.7,,2300,27,4,Goldcrest Heights feeder; maintenance activities reduced sustained interruptions.
+R024,2021-03-19,SYS-ELM-24,,,true,39.9,0.94,42.4,,11200,14,3,"Elm region system-wide; annual metrics, low interruption rates, momentary events not reported."
+R025,2022-11-10,SYS-OAK-25,OAK-118,Oakwood East,false,123.4,2.05,60.2,3,1450,32,8,"Oakwood East feeder; higher interruption frequency during autumn, moderate CAIDI."
+R026,2023-12-30,SYS-GREEN-26,,,true,83.7,1.43,58.7,1.5,38600,142,36,Green region system-wide summary; increased momentary interruptions due to ice storms.
+R027,2022-01-25,SYS-CLIFF-27,CLIFF-014,Cliffside Terrace,false,167.3,1.64,102,2.7,1100,24,4,"Cliffside Terrace feeder; rural area, elevated CAIDI due to challenging terrain."
+R028,2021-04-14,SYS-FIELD-28,,,true,35.7,0.89,40.1,0.7,18400,16,2,Field region system-wide report; minor outages attributed to equipment upgrades.
+R029,2022-10-07,SYS-POINT-29,POINT-006,Point South,false,71.9,1.22,59,,1800,21,5,"Point South feeder; reliable service with low interruption rates, momentary data unavailable."
+R030,2023-04-20,SYS-TOWER-30,,,true,61.2,1.19,51.4,1,27500,81,21,"Tower region system-wide report; moderate interruption rates, improved restoration times."
+R031,2024-04-02,SYS-STONE-31,STONE-088,Stonebridge East,false,87.2,1.41,61.9,1.7,2800,28,7,Stonebridge East feeder; spring storms increased both sustained and momentary interruptions.
+R032,2020-05-19,SYS-FORD-32,,,true,19.4,0.61,31.8,,9500,13,2,"Ford region system-wide report; minimal interruptions, momentary events not tracked."
+R033,2021-09-24,SYS-BRIDGE-33,BRIDGE-024,Bridgeview Center,false,58.3,1.12,52.1,0.6,2050,19,6,"Bridgeview Center feeder; performance consistent with annual targets, minor outages only."
+R034,2022-02-07,SYS-MAPLE-34,,,true,72.4,1.29,56.1,1.3,19200,98,25,"Maple region annual reliability report; moderate interruptions, increased momentary events."
+R035,2023-07-14,SYS-ALDER-35,ALDER-015,Alderwood Plaza,false,112.8,2.14,52.7,2.1,3150,33,7,Alderwood Plaza feeder; summer storms elevated both sustained and momentary interruptions.
+R036,2020-07-23,SYS-BLUFF-36,,,true,47.3,0.98,48.3,0.5,15800,22,3,"Bluff region system-wide report; typical summer performance, no major outages."
+R037,2021-10-06,SYS-ORCHARD-37,ORCHARD-133,Orchard Lane,false,63.5,1.18,53.8,1.2,2100,17,5,"Orchard Lane feeder report; improved performance, momentary events below target."
+R038,2024-03-19,SYS-HEIGHTS-38,,,true,69.1,1.27,54.5,1.4,22950,109,27,"Heights region system-wide metrics; minor interruptions, no major events in Q1 2024."
+R039,2022-08-22,SYS-SHORE-39,SHORE-029,Shoreline North,false,97.6,1.48,65.7,1.8,2560,24,7,"Shoreline North feeder; moderate interruptions, increased momentary rates after line upgrades."
+R040,2021-05-13,SYS-DALE-40,,,true,33.6,0.85,39.6,0.6,10150,12,1,"Dale region system-wide summary; lowest interruption rates, stable year."
+R041,2022-10-19,SYS-HOLLOW-41,HOLLOW-077,Hollow Ridge,false,121.5,2.16,56.3,2.5,2950,35,9,"Hollow Ridge feeder; autumn storms increased interruption frequency, restoration times stable."
+R042,2020-01-17,SYS-WEST-42,,,true,58.1,1.13,51.4,0.9,20300,76,18,"West region annual metrics; typical winter performance, moderate interruptions."
+R043,2023-05-19,SYS-PARK-43,PARK-145,Parkside South,false,76.8,1.38,55.6,1.5,3250,29,7,Parkside South feeder; spring windstorms increased both sustained and momentary interruptions.
+R044,2021-11-09,SYS-SAGE-44,,,true,30.9,0.72,42.9,,13400,11,1,"Sage region system-wide report; annual reliability metrics, momentary interruptions not tracked."
+R045,2022-05-25,SYS-CEDAR-45,CEDAR-021,Cedar Hill,false,82.1,1.23,66.6,0.8,1875,20,4,"Cedar Hill feeder; moderate interruptions, restoration times affected by equipment age."
+R046,2021-07-29,SYS-PEAK-46,,,true,52.6,1.08,48.7,1.1,16450,21,5,"Peak region system-wide summary; typical summer reliability, no major events."
+R047,2023-08-08,SYS-RIDGE-47,RIDGE-101,Ridgeview North,false,94.6,1.42,66.7,1.3,3150,31,7,Ridgeview North feeder; summer storms increased both sustained and momentary interruptions.
+R048,2022-12-15,SYS-VALLEY-48,,,true,60.4,1.13,53.5,1.2,20200,74,17,"Valley region system-wide metrics; winter performance, stable interruption rates."
+R049,2021-03-30,SYS-QUARRY-49,QUARRY-054,Quarry Heights,false,74.3,1.19,62.4,,1800,20,5,"Quarry Heights feeder; reliability improved after equipment upgrades, momentary data incomplete."
+R050,2024-05-07,SYS-TRAIL-50,,,true,66.9,1.22,54.8,1.3,24300,113,25,"Trail region system-wide report; spring storms affected reliability, moderate interruption rates."
+R051,2022-02-19,SYS-TUCSON-01,,,true,43.8,1.1,39.3,1,45600,97,31,Annual performance report for Tucson area system-wide. No major storms this year.
+R052,2020-06-04,SYS-BOSTON-02,BOSTON-112,Back Bay North,false,58.2,0.8,72.7,1.4,1900,29,6,"Urban feeder, Back Bay North, moderate interruptions due to construction activities."
+R053,2021-11-13,SYS-DENVER-03,,,true,54.7,1.7,32.2,0.7,68300,142,44,"Denver system-wide report, above average interruptions following spring wind events."
+R054,2023-07-27,SYS-FRESNO-04,FRESNO-312,Golden Valley South,false,77.6,2.1,93.8,1.1,2200,37,7,"Feeder-level report, high CAIDI from extended outage after transformer failure."
+R055,2024-01-18,SYS-MOBILE-05,,,true,12.4,0.4,25.7,0.3,15800,21,4,System-wide annual summary for Mobile city. Fewer interruptions after upgrades.
+R056,2023-03-22,SYS-DETROIT-06,DETROIT-207,Eastside Residential,false,144.5,1.3,111.2,2,1650,42,8,"Eastside Residential feeder, Detroit, high duration outages from aging cable failures."
+R057,2021-05-15,SYS-JACKSON-07,,,true,0,0,,,0,0,,"Boundary test: No customers served, system in startup phase."
+R058,2022-09-29,SYS-ORLANDO-08,ORLANDO-067,Lake Eola West,false,34.9,0.7,48.8,1.7,1250,16,3,"Lake Eola West feeder, Orlando, minor interruptions, mostly momentary."
+R059,2020-03-10,SYS-OMAHA-09,OMAHA-210,North Market,false,51.2,0.6,84.5,,910,11,0,"North Market feeder, Omaha, no momentary interruptions, low SAIFI."
+R060,2024-02-18,SYS-PORTLAND-10,,,true,22.6,0.9,25.1,,17200,27,3,"Portland system-wide, low interruption frequency, some missing MAIFI data."
+R061,2022-06-24,SYS-MADISON-11,MADISON-005,West Beltline,false,27.8,0.9,31.2,0.6,1400,14,2,"Feeder West Beltline, Madison, short duration outages due to planned maintenance."
+R062,2023-12-03,SYS-ELPASO-12,ELPASO-078,Desert Sands,false,88.4,2.4,118.2,1.9,2060,39,11,"Desert Sands feeder, El Paso, elevated interruptions following summer heatwave."
+R063,2022-04-09,SYS-ATLANTA-13,,,true,19.7,0.6,32.8,0.6,20900,32,4,"Atlanta-wide reliability metrics, improvements after grid modernization."
+R064,2020-08-15,SYS-SPOKANE-14,SPOKANE-321,Riverfront East,false,154.2,1.2,128.7,,1100,38,0,"Riverfront East, Spokane, higher CAIDI due to remote location and winter storms."
+R065,2021-01-04,SYS-CHATTANOOGA-15,,,true,61.5,1.2,52.1,1.2,30200,81,16,"Chattanooga system-wide, mild year with moderate momentary interruptions."
+R066,2023-10-30,SYS-ALBUQUERQUE-16,ALBUQ-019,Mesa Central,false,41.6,0.7,59.4,2,950,13,4,"Mesa Central feeder, Albuquerque, above average MAIFI after wind event."
+R067,2021-09-01,SYS-OMAHA-09,OMAHA-215,South Market,false,76.5,1.5,51.2,0.5,1500,28,3,"South Market feeder, Omaha, typical rural performance, minor outages."
+R068,2022-07-21,SYS-CINCINNATI-17,,,true,99.7,1.8,56.4,1.5,57300,153,39,"System-wide Cincinnati metrics, higher interruptions from summer thunderstorms."
+R069,2024-03-05,SYS-BIRMINGHAM-18,BIRMINGHAM-008,Downtown Loop,false,22.3,0.9,24.7,5.6,3800,17,39,"Downtown Loop feeder, Birmingham, high MAIFI due to repeated switching operations."
+R070,2022-01-28,SYS-RALEIGH-19,RALEIGH-014,Capital East,false,63.5,1,62.8,,2600,21,,"Capital East feeder, Raleigh, moderate sustained interruptions, some missing momentary data."
+R071,2023-04-17,SYS-MEMPHIS-20,,,true,71.2,1.6,46.9,0.8,48500,112,24,"Memphis system-wide metrics, typical performance after spring upgrades."
+R072,2021-10-09,SYS-BALTIMORE-21,BALTIMORE-201,Inner Harbor West,false,17.9,0.7,25.5,1.3,1100,12,2,"Inner Harbor West, Baltimore, low interruptions, urban feeder."
+R073,2024-04-08,SYS-MINNEAPOLIS-22,,,true,38.5,1,34.7,0.9,26400,43,9,"Minneapolis system-wide, annual report, minor improvements after smart grid rollout."
+R074,2020-04-27,SYS-LASVEGAS-23,LASVEGAS-537,Paradise North,false,127.8,2.8,66.5,2.6,3700,39,10,"Paradise North feeder, Las Vegas, higher interruptions due to summer heat stress."
+R075,2021-03-18,SYS-OKLAHOMA-24,,,true,12500,900,9999,10.5,94000,900,75,Extreme event: widespread tornado damage affecting Oklahoma system-wide metrics.
+R076,2022-08-13,SYS-MILWAUKEE-25,MILWAUKEE-404,Bay View South,false,93.3,1.7,55.6,1.6,2700,32,6,"Bay View South feeder, Milwaukee, moderate performance, some outages from windstorm."
+R077,2023-05-07,SYS-SAVANNAH-26,,,true,47.1,1.3,35.2,1.1,18800,23,7,"System-wide Savannah, low sustained interruptions, typical coastal weather impact."
+R078,2022-12-25,SYS-BOULDER-27,BOULDER-042,Flatiron West,false,54.4,0.8,68.1,,1140,12,0,"Feeder Flatiron West, Boulder, low frequency but high duration outages, missing MAIFI."
+R079,2021-08-11,SYS-TULSA-28,TULSA-233,Brookside Avenue,false,67.7,1.1,61.2,0.7,2050,21,2,"Brookside Avenue feeder, Tulsa, typical feeder performance, moderate interruptions."
+R080,2023-09-21,SYS-ROCHESTER-29,,,true,63.9,1.4,45.1,1,37500,74,17,"Rochester system-wide, annual reliability metrics, moderate performance."
+R081,2020-12-16,SYS-RENO-30,RENO-099,South Meadows,false,35.9,0.8,44.9,0.9,980,12,3,"South Meadows feeder, Reno, minor outages, mostly planned maintenance."
+R082,2021-07-25,SYS-GREENVILLE-31,,,true,49.7,0.8,62.3,0.7,22000,39,8,"Greenville system-wide, average reliability metrics, minor weather events."
+R083,2024-05-06,SYS-PITTSBURGH-32,,,true,31.8,1.1,28.8,0.5,16700,22,2,"Pittsburgh system-wide, improved reliability following automation upgrades."
+R084,2020-07-15,SYS-LEXINGTON-33,LEXINGTON-044,Bluegrass West,false,52.3,0.9,56.2,1.6,1240,15,5,"Bluegrass West feeder, Lexington, interruptions due to tree-related faults."
+R085,2022-11-01,SYS-HOUSTON-34,HOUSTON-119,Uptown West,false,18.6,0.7,26.9,8.2,4200,18,41,"Uptown West feeder, Houston, high momentary interruptions during hurricane season."
+R086,2023-01-23,SYS-INDIANAPOLIS-35,,,true,73.2,1.3,56.7,1.2,30800,56,13,"Indianapolis annual summary, moderate interruptions and momentary events."
+R087,2022-03-02,SYS-TOLEDO-36,,,true,0,0,,,0,0,,"Boundary test: system-wide Toledo, no customers or interruptions recorded."
+R088,2021-02-14,SYS-AUSTIN-37,AUSTIN-217,Travis Heights,false,134.5,2,67.3,2.2,3100,33,9,"Travis Heights feeder, Austin, high interruptions during ice storm."
+R089,2023-11-11,SYS-SACRAMENTO-38,,,true,41.2,0.9,39.5,0.6,14600,25,5,"Sacramento system-wide, annual metrics, no major events."
+R090,2020-09-05,SYS-CHARLESTON-39,CHARLESTON-315,James Island,false,90.7,1.6,56.8,,1920,26,,"James Island feeder, Charleston, moderate performance, missing MAIFI and momentary data."
+R091,2023-02-12,SYS-SYRACUSE-40,,,true,65.9,1.4,47.2,1.3,22100,43,9,"Syracuse system-wide, annual reliability metrics, moderate performance."
+R092,2021-06-18,SYS-LITTLE ROCK-41,LITTLEROCK-009,River Market,false,50.1,0.8,63.2,1.1,1320,11,3,"River Market feeder, Little Rock, outages mainly from aging cable faults."
+R093,2022-05-02,SYS-PHOENIX-42,,,true,72.4,1.5,48.5,1.1,41900,98,19,"Phoenix system-wide, annual reliability metrics, moderate interruptions."
+R094,2023-08-29,SYS-TAMPA-43,TAMPA-084,Oldsmar Central,false,24.7,0.7,35.2,6.9,3700,14,33,"Oldsmar Central feeder, Tampa, many momentary interruptions due to switching errors."
+R095,2021-04-13,SYS-STLOUIS-44,,,true,58.5,1.2,49.6,1,29000,52,11,"St. Louis system-wide, annual summary, typical metrics for Midwest region."
+R096,2024-06-03,SYS-FORTWORTH-45,FORTWORTH-303,Stockyards North,false,15.8,0.6,26.3,7.5,4100,10,36,"Stockyards North feeder, Fort Worth, high momentary interruptions from weather-related switching."
+R097,2022-10-03,SYS-MONTGOMERY-46,,,true,26.1,0.7,44.2,,8200,17,,"Montgomery system-wide, low interruptions, missing MAIFI and momentary data."
+R098,2020-02-22,SYS-SANJOSE-47,SANJOSE-018,Almaden East,false,148.6,2.5,59.4,2.9,2700,35,10,"Almaden East feeder, San Jose, multiple sustained outages during winter storms."
+R099,2022-03-26,SYS-RICHMOND-48,,,true,18.9,0.5,37.8,0.4,10800,16,2,"Richmond system-wide, low interruption rates, suburban performance."
+R100,2024-05-29,SYS-NEWORLEANS-49,NEWORLEANS-005,French Quarter North,false,85.9,1.8,47.6,6.8,5000,31,43,"French Quarter North feeder, New Orleans, many momentary interruptions during spring storms."
+R101,2022-03-18,SYS-COMPTON-11,,,true,45.2,1.49,30.7,1.5,18620,78,25,2022 reliability overview for Compton system-wide operations.
+R102,2023-11-06,SYS-MOBILE-09,MOBILE-042,Mobile North Feeder,false,112.4,2.12,55.8,0.8,1360,28,6,Mobile North feeder subject to outage during spring storms in 2023.
+R103,2024-05-02,SYS-BRICK-07,,,true,21.7,0.81,26.9,,32450,46,9,"Annual system-wide report for Brick utility, typical urban performance."
+R104,2023-02-08,SYS-DOVER-10,,,true,12.9,0.64,20.2,1.1,27600,41,5,"Dover system-wide report, overall reliability improved after upgrades."
+R105,2021-07-14,SYS-BLOOM-17,BLOOM-311,Bloomfield Rural Loop,false,328.7,1.01,108.4,,895,19,2,Bloomfield Rural Loop with higher interruption duration due to aging lines.
+R106,2022-05-23,SYS-MONROE-06,MONROE-004,Monroe Main Feeder,false,88.5,1.72,51.4,2,2210,32,7,Monroe Main Feeder affected by transformer upgrades in May 2022.
+R107,2020-10-20,SYS-ROSWELL-14,,,true,0,0,0,,0,0,,Boundary test case; no customers served in period.
+R108,2021-08-05,SYS-TULSA-03,TULSA-201,Tulsa West Feeder,false,73.9,1.46,50.6,1.7,1890,27,8,Tulsa West Feeder; increased momentary interruptions in summer 2021.
+R109,2023-06-19,SYS-ALTON-01,,,true,66.1,1.88,35.2,1.3,14550,94,31,Alton system-wide reliability report for 2023; improvements noted.
+R110,2022-11-29,SYS-EDMOND-05,EDMOND-008,Edmond Industrial Feeder,false,189.2,2.61,72.4,,1565,39,4,Edmond Industrial Feeder saw increased outage frequency in Q4 2022.
+R111,2024-04-16,SYS-DOUGLAS-13,,,true,58.8,1.22,48.1,,22800,84,18,Douglas system-wide reliability index for 2024; transformer upgrades completed.
+R112,2021-01-11,SYS-GREEN-04,GREEN-125,Greenfield Rural East,false,230.5,1.11,96.2,2.6,1060,17,3,Greenfield Rural East experienced extended outages due to weather.
+R113,2022-08-23,SYS-MACON-21,,,true,24.3,1.15,21.1,0.5,19340,53,11,Macon system-wide report; mostly minor interruptions during summer.
+R114,2023-09-27,SYS-LAREDO-08,LAREDO-104,Laredo North Feeder,false,97.6,1.89,51.7,1.2,1700,23,6,Laredo North Feeder report; outage rates within expected range.
+R115,2024-02-21,SYS-PARK-16,,,true,31.9,0.97,32.9,1.4,18870,62,13,Park system-wide reliability improvement in early 2024.
+R116,2021-12-19,SYS-ALLEN-18,ALLEN-302,Allen North Feeder,false,59.3,1.35,44,1,1580,21,3,"Allen North Feeder reliability, typical urban performance."
+R117,2022-09-03,SYS-WACO-12,,,true,18.2,0.53,34.6,1.6,31200,50,12,Waco system-wide outage summary for 2022.
+R118,2021-04-27,SYS-PEARL-19,PEARL-114,Pearl South Feeder,false,181.8,2.12,85.7,,1340,29,4,"Pearl South Feeder rural outages, higher duration recorded."
+R119,2020-12-12,SYS-MESA-02,,,true,0,0,0,,0,0,,Boundary test case; Mesa system had no customers in 2020.
+R120,2023-03-11,SYS-ELGIN-15,ELGIN-223,Elgin Creek Feeder,false,62.7,1.41,44.5,1.9,1740,20,5,Elgin Creek experienced brief outages in March 2023.
+R121,2022-10-07,SYS-CARSON-20,,,true,34.5,1.21,28.4,0.7,22480,64,17,Carson system-wide report; overall reliability within target.
+R122,2024-06-07,SYS-BRYANT-22,BRYANT-138,Bryant Main Feeder,false,81.2,1.77,45.9,2.5,2015,25,8,Bryant Main Feeder reliability metrics following maintenance in June.
+R123,2021-03-03,SYS-HILLS-23,,,true,53.1,1.02,52.1,0.8,15380,73,16,"Annual report for Hills system-wide, urban area."
+R124,2022-11-02,SYS-MARLIN-24,MARLIN-219,Marlin West Feeder,false,165.6,2.39,69.3,,1575,33,5,Marlin West Feeder outage rates elevated in late 2022.
+R125,2023-05-15,SYS-GROVE-25,,,true,89.3,1.69,53.2,1.2,23570,102,28,Grove system-wide metrics for Spring 2023; weather-related outages.
+R126,2021-11-22,SYS-DELTA-26,DELTA-302,Delta North Feeder,false,134.8,1.58,85.3,1.6,1160,24,2,Delta North Feeder experienced higher than average outage duration.
+R127,2022-06-01,SYS-COLLINS-27,,,true,11.6,0.35,33.1,1.1,16780,36,7,Collins system-wide metrics; low interruption rates.
+R128,2024-01-30,SYS-HARVEY-28,HARVEY-210,Harvey East Feeder,false,93.4,1.25,72.9,,1420,20,4,"Harvey East Feeder reliability, upgrades scheduled for late 2024."
+R129,2023-08-12,SYS-CLARK-29,,,true,60.7,1.45,41.9,1,21130,68,15,Clark system-wide performance; outages due to extreme heat.
+R130,2020-08-16,SYS-OTTO-30,OTTO-019,Otto South Feeder,false,146.5,1.83,80,2.7,1270,23,5,Otto South Feeder affected by severe weather in Summer 2020.
+R131,2021-09-25,SYS-PLANO-31,,,true,29.4,0.87,33.7,0.9,21240,58,12,Plano system-wide annual review; low outage frequency.
+R132,2022-07-21,SYS-ROBIN-32,ROBIN-218,Robin Hill Feeder,false,58.1,1.43,40.6,1.5,1530,18,7,Robin Hill Feeder reliability index for summer 2022.
+R133,2023-07-09,SYS-MARSH-33,,,true,67.8,1.91,35.5,1.7,20590,85,29,Marsh system-wide reliability metrics; summer storm impact.
+R134,2021-10-13,SYS-FORD-34,FORD-133,Ford South Feeder,false,99.2,1.53,64.8,1.8,1380,21,6,Ford South Feeder reliability; outages due to equipment failure.
+R135,2022-04-25,SYS-ARLINGTON-35,,,true,15.7,0.48,32.5,0.7,18950,38,8,Arlington system-wide report; improved reliability noted.
+R136,2023-01-14,SYS-NELSON-36,NELSON-121,Nelson East Feeder,false,73.3,1.32,55.8,1,1620,18,3,Nelson East Feeder reliability metrics for winter.
+R137,2024-03-19,SYS-TYLER-37,,,true,42.6,1.11,38.4,,17560,55,14,Tyler system-wide outage summary for Q1 2024.
+R138,2021-02-23,SYS-KNOX-38,KNOX-127,Knox North Feeder,false,129.6,1.65,78.5,2.1,1290,21,4,Knox North Feeder winter outage and reliability assessment.
+R139,2022-03-31,SYS-QUINCY-39,,,true,28.2,0.93,30.3,0.9,18380,47,10,"Quincy system-wide reliability, outages within expected range."
+R140,2023-04-23,SYS-FAIRFAX-40,FAIRFAX-221,Fairfax Main Feeder,false,63.4,1.29,49.1,1.5,1810,22,7,Fairfax Main Feeder report; typical maintenance outages.
+R141,2022-12-15,SYS-BRYCE-41,,,true,35,1.02,34.7,0.8,20620,61,12,Bryce system-wide reliability index; outage frequency typical.
+R142,2024-05-28,SYS-EDISON-42,EDISON-141,Edison North Feeder,false,75.9,1.34,56.6,1.8,1480,20,6,Edison North Feeder reliability metrics for spring 2024.
+R143,2021-05-17,SYS-LEWIS-43,,,true,13.8,0.46,30,1.1,19470,33,8,Lewis system-wide; reliability improvement from new infrastructure.
+R144,2023-10-15,SYS-PRATT-44,PRATT-222,Pratt East Feeder,false,87.6,1.31,66.6,,1760,18,5,Pratt East Feeder report; typical maintenance in Q4 2023.
+R145,2022-01-09,SYS-PORTER-45,,,true,0,0,0,,0,0,,Porter system boundary case; no customers or interruptions.
+R146,2021-06-23,SYS-MILLER-46,MILLER-228,Miller South Feeder,false,120.4,1.78,67.6,1.9,1210,19,4,Miller South Feeder reliability; increased interruptions in June.
+R147,2023-12-08,SYS-BAXTER-47,,,true,56.6,1.22,46.3,1.2,24150,79,22,Baxter system-wide reliability report for winter 2023.
+R148,2020-04-12,SYS-FULTON-48,FULTON-053,Fulton Main Feeder,false,158.9,1.63,97.5,2.2,1100,21,5,Fulton Main Feeder reliability; outages due to equipment age.
+R149,2022-02-02,SYS-MORGAN-49,,,true,17.5,0.51,34.2,1,17320,29,6,Morgan system-wide report; outages below average.
+R150,2024-04-09,SYS-CLAY-50,CLAY-217,Clay North Feeder,false,74.2,1.54,48.6,1.5,1620,19,6,Clay North Feeder reliability metrics following transformer replacement.
+R201,2022-09-14,SYS-TULSA-15,,,true,62.5,1.17,53.4,1.03,45800,110,19,Annual system-wide reliability report for Tulsa region utility.
+R202,2023-11-02,SYS-ORLANDO-07,ORL-EAST-102,Eastside Main Feeder,false,45.2,1.41,32.1,0.82,2950,24,7,Storms in early October caused several sustained outages on Eastside.
+R203,2024-03-25,SYS-BOSTON-21,,,true,70.8,1.83,39.7,1.22,80250,189,38,Major wind event impacted system performance; summary for Boston.
+R204,2021-07-07,SYS-TOLEDO-11,TOL-NORTH-213,North Toledo Substation,false,182.6,2.11,86.3,0.47,1375,33,4,Aging infrastructure led to increased outage durations in North Toledo.
+R205,2023-05-04,SYS-SACRAMENTO-22,,,true,0,0,0,0,0,0,0,Boundary test case for zero customers and zero interruptions.
+R206,2020-08-13,SYS-MOBILE-09,MOB-IND-093,Industrial Corridor,false,422.1,1.38,92.7,2.43,812,29,8,Industrial corridor experienced outages during peak summer demand.
+R207,2024-01-19,SYS-NEWARK-16,,,true,90.2,0.71,62.1,1.35,34100,66,14,Newark urban area system-wide reliability metrics for winter 2024.
+R208,2023-06-22,SYS-OMAHA-04,OMA-SOUTH-047,South Omaha Line,false,72.4,2.02,36.8,9.27,2650,15,43,High momentary interruptions due to severe thunderstorms in June.
+R209,2021-12-03,SYS-STPAUL-12,STP-WEST-058,Westside Rural Feeder,false,244.7,1.09,131.2,2.84,1120,21,6,Westside feeder in rural St. Paul area had extended outages this year.
+R210,2022-03-11,SYS-ELPASO-26,,,true,37.6,0.93,41.2,,23450,54,7,"El Paso system-wide metrics: no major events, performance typical."
+R211,2023-10-03,SYS-NASHVILLE-03,,,true,29.8,1.01,26.4,1.17,56700,41,9,Annual reliability report for Nashville main system.
+R212,2020-07-29,SYS-ROCKFORD-18,ROC-DOWNTOWN-038,Downtown District,false,18.7,0.94,19.9,0,1850,12,0,"Downtown feeder performed well, only minor outages in July."
+R213,2022-05-18,SYS-NEWORLEANS-19,,,true,83.9,1.68,49.9,0.85,91200,176,32,Hurricane season caused above-average interruptions in New Orleans.
+R214,2023-02-08,SYS-BIRMINGHAM-10,BHM-SOUTH-005,Southside Urban Feed,false,22.6,1.05,21.5,,2875,10,2,Minimal outages for Southside Birmingham feeder throughout the year.
+R215,2024-04-10,SYS-PHOENIX-28,,,true,97.6,1.29,75.3,1.39,99800,201,49,Phoenix system-wide: peak summer heat led to increased interruptions.
+R216,2021-04-16,SYS-DESMOINES-14,DSM-WEST-009,West Branch Rural,false,356.9,1.36,113.2,2.68,1034,19,5,Extended rural outages on West Branch; infrastructure upgrades needed.
+R217,2022-08-29,SYS-JACKSON-02,JACK-CENTRAL-021,Central City Feeder,false,57.4,1.87,30.7,1.02,2150,18,6,Central feeder had several outages during seasonal storms in Jackson.
+R218,2022-06-13,SYS-PORTLAND-20,,,true,64.1,1.25,51.6,1.09,47800,112,13,Annual Portland system report; numbers within standard range.
+R219,2020-12-19,SYS-CHARLOTTE-23,CLT-EAST-302,East Charlotte Feeder,false,35.3,1.11,29.7,0.62,1950,13,1,East Charlotte feeder saw minor disruptions over the winter.
+R220,2021-11-30,SYS-MEMPHIS-05,,,true,54.7,1.49,37.8,,39100,71,16,"System-wide reliability report for Memphis, no major events."
+R221,2023-08-27,SYS-RALEIGH-06,RAL-NORTH-045,North Raleigh Feed,false,119.2,1.54,77.3,,1712,28,5,Summer storms increased outage durations for North Raleigh feeder.
+R222,2024-05-03,SYS-FORTWORTH-13,,,true,86.7,1.77,49.2,1.44,53200,129,27,Annual report highlights overall improvement in Fort Worth metrics.
+R223,2021-02-24,SYS-SPOKANE-08,SPK-WEST-074,West Spokane Suburban,false,86.3,1.62,53.5,1.71,1511,25,9,Suburban outages in West Spokane attributed to tree contacts.
+R224,2023-01-05,SYS-LAFAYETTE-27,,,true,78.1,0.98,54.6,0.97,24600,57,11,"Lafayette system-wide metrics, no abnormal events for the year."
+R225,2022-10-21,SYS-CLEVELAND-25,,,true,0,0,0,,0,0,0,Outlier record for Cleveland system: no customers or events.
+R226,2021-05-28,SYS-INDIANAPOLIS-17,IND-WEST-112,West Industrial Feed,false,194.3,2.36,82.7,0,1674,37,0,Industrial feeder in West Indianapolis experienced long outages.
+R227,2022-01-13,SYS-PORTSMOUTH-24,POR-EAST-005,East Branch,false,212.6,2.54,72.3,2.09,1322,39,8,East Branch feeder outages due to ice storms in Portsmouth.
+R228,2021-09-24,SYS-COLUMBUS-29,,,true,41.2,1.12,31.8,0.59,41200,48,10,Columbus reliability metrics: improvements after grid upgrades.
+R229,2024-02-28,SYS-HOUSTON-30,,,true,52.9,1.23,43.5,1.28,89300,157,36,Houston system-wide: outage rates decreased following maintenance.
+R230,2023-04-16,SYS-MADISON-31,MAD-NORTH-207,North Madison Rural,false,312.4,1.55,109.8,,943,15,0,North Madison rural feeder had repeat outages due to trees.
+R231,2020-10-10,SYS-ATLANTA-32,ATL-SOUTH-012,Southside Urban,false,28.5,1.19,23.7,0.35,1800,11,2,Southside feeder in Atlanta reported strong reliability this year.
+R232,2021-03-27,SYS-RICHMOND-33,,,true,49.6,1.44,34.5,0.71,31100,62,15,Richmond system-wide reliability metrics: no notable incidents.
+R233,2022-11-08,SYS-SCRANTON-34,SCR-WEST-055,West Scranton Feed,false,67.9,1.34,50.6,0.97,1210,17,3,West Scranton feeder saw moderate interruptions in November.
+R234,2022-04-04,SYS-OMAHA-35,,,true,73.2,1.19,61.7,1.08,36900,94,21,Omaha annual report: metrics reflect strong grid performance.
+R235,2021-06-16,SYS-DETROIT-36,DET-EAST-115,Eastside Industrial,false,207.5,2.19,89.1,,1595,34,6,Eastside Detroit feeder impacted by grid maintenance and upgrades.
+R236,2023-09-30,SYS-ALBUQUERQUE-37,,,true,58.4,0.97,39.2,1.26,28700,53,12,Albuquerque system-wide reliability report after monsoon season.
+R237,2020-06-02,SYS-FRESNO-38,FRE-NORTH-027,North Fresno Feed,false,43.6,0.87,36.2,0.29,1740,12,1,North Fresno feeder performed well with few interruptions.
+R238,2024-02-22,SYS-LOUISVILLE-39,,,true,85.9,1.63,52.8,1.37,64600,138,34,Louisville system-wide: winter storms led to higher interruptions.
+R239,2021-01-20,SYS-GREENBAY-40,GRB-SOUTH-019,South Green Bay,false,77.8,1.28,60.9,1.1,2040,16,5,South Green Bay feeder had reliable performance over the year.
+R240,2022-07-12,SYS-RENO-41,,,true,63.4,1.21,52.1,,17300,38,7,Reno system annual metrics; no significant events reported.
+R241,2022-10-15,SYS-AKRON-42,AKR-EAST-021,East Akron Feed,false,54.3,0.99,55.5,0.74,1395,10,2,East Akron feeder experienced short-duration outages in October.
+R242,2024-05-11,SYS-MILWAUKEE-43,,,true,74.5,1.31,57.7,1.35,55100,123,29,Milwaukee metrics: system-wide numbers meet reliability standards.
+R243,2023-07-26,SYS-DALLAS-44,DAL-SOUTH-033,South Dallas Feed,false,82.5,1.42,58.2,8.29,2870,18,38,South Dallas feeder: elevated momentary interruptions after heavy storms.
+R244,2022-03-05,SYS-BUFFALO-45,,,true,68.3,1.21,43.1,1.02,23200,52,8,Buffalo annual reliability metrics: no significant changes.
+R245,2021-08-23,SYS-SAVANNAH-46,SAV-NORTH-023,North Savannah Feed,false,134.8,1.47,91.2,,1202,22,0,North Savannah feeder impacted by summer storms and maintenance.
+R246,2023-03-12,SYS-BALTIMORE-47,,,true,83.1,1.15,62.9,1.33,46700,107,23,Baltimore system-wide: regular maintenance kept outages low.
+R247,2021-12-28,SYS-CINCINNATI-48,CIN-EAST-012,East Cincinnati Feed,false,63.7,1.06,60.2,6.54,2170,16,40,East Cincinnati feeder: high momentary interruptions after ice storm.
+R248,2024-01-28,SYS-KNOXVILLE-49,,,true,38.7,0.87,44.9,,19100,42,6,Knoxville system-wide metrics: new upgrades reduced outage frequency.
+R249,2022-05-22,SYS-SYRACUSE-50,SYR-WEST-056,West Syracuse Feed,false,48.5,0.95,51.2,0.46,1690,13,3,West Syracuse feeder saw brief outages after lightning event.
+R250,2020-09-15,SYS-TAMPA-51,,,true,55.1,1.24,45.7,0.88,27100,43,8,Tampa system-wide reliability metrics: performance stable for 2020.
+R201,2021-07-12,SYS-ALBANY-04,,,true,45.9,1.17,39.2,1.2,41800,41,24,Annual system-wide summary for Albany utility showing stable performance and few major outages.
+R202,2023-10-15,SYS-LAREDO-07,LAREDO-101,Central Laredo Industrial,false,189.7,2.01,94.1,1.7,1250,18,4,Feeder affected by major substation upgrade and short-term outages in October.
+R203,2024-05-28,SYS-ROCHESTER-03,,,true,61.3,0.93,65,1,33500,27,13,System-wide annual report for Rochester utility showing improvement over prior year.
+R204,2022-02-06,SYS-DAVIS-10,,,true,2.9,0.08,36.2,,47000,10,1,Very low interruption year for Davis system; mild weather and minimal outages.
+R205,2020-11-18,SYS-MOBILE-09,MOBILE-302,Bayfront Commercial,false,82.4,0.74,57.1,8.2,1780,10,32,Feeder experienced multiple momentary interruptions due to coastal storms.
+R206,2024-03-02,SYS-OMAHA-01,,,true,54.7,1.12,49,1.4,62000,51,19,System-wide performance for Omaha showing reliable service and minor weather-related events.
+R207,2021-09-24,SYS-SPOKANE-05,SPOK-211,North Ridge Rural,false,248.5,1.87,132.7,,810,21,6,Rural feeder in Spokane region suffered extended outages after windstorm.
+R208,2023-11-03,SYS-BEAUMONT-06,,,true,12.6,0.21,60.2,0.4,28500,13,2,Beaumont system-wide report; service remained stable with only minor outages.
+R209,2022-08-21,SYS-TUSCALOOSA-02,TUS-107,University Loop,false,62.7,0.97,59.5,2,1950,14,7,Feeder with construction-related outages and some momentary disruptions near campus.
+R210,2020-04-14,SYS-ELGIN-11,ELGIN-304,East Elgin Farms,false,390.2,1.53,135.2,0.9,1260,19,3,Rural feeder with aging infrastructure and above-average outage duration.
+R211,2023-03-07,SYS-CANTON-08,,,true,0,0,0,,42000,0,0,Zero interruption system-wide report following extensive grid modernization.
+R212,2022-06-29,SYS-MACON-13,MACON-215,Downtown Macon Commercial,false,32.1,0.59,54.4,7.9,1510,12,37,Downtown feeder with high momentary interruptions due to construction.
+R213,2024-04-19,SYS-BRYAN-14,,,true,70.3,1.35,52.1,0.9,34500,36,11,"Bryan system-wide reliability, typical annual performance with minor weather events."
+R214,2021-01-17,SYS-MONROE-15,MONROE-121,West Monroe Estates,false,141.6,1.07,132.4,,1005,16,5,Rural residential feeder with notable outage durations in winter period.
+R215,2023-08-05,SYS-JASPER-16,,,true,23.2,0.42,55.4,0.7,27100,18,8,Jasper system-wide report; interruptions mainly from scheduled maintenance.
+R216,2020-09-10,SYS-MESA-12,MESA-204,Mesa Urban Center,false,21.5,0.81,26.5,6.7,2950,13,44,Urban feeder with high momentary interruptions during summer storms.
+R217,2022-04-28,SYS-PORTLAND-01,,,true,58.8,1.08,54.2,1.1,54800,45,20,"Portland system-wide results, reliability impacted by spring windstorm."
+R218,2023-12-20,SYS-GADSDEN-18,GADSDEN-409,Gadsden South Rural,false,261,2.19,119.3,,920,22,7,Winter ice storm caused extended outages on rural feeder.
+R219,2020-05-23,SYS-SALEM-19,SALEM-315,Salem Tech Park,false,110.2,1.19,91.3,1.5,1410,15,9,Tech park feeder interruptions linked to upgrades and new installations.
+R220,2021-03-03,SYS-JEFFERSON-22,,,true,91.7,1.78,51.6,1.3,32500,47,17,"Jefferson system-wide reliability, interruptions primarily weather-related."
+R221,2024-01-22,SYS-HATTIESBURG-23,HATT-105,East Hattiesburg Suburban,false,81.4,0.93,87.6,1.8,1630,13,8,Suburban feeder with increased interruptions due to equipment failures.
+R222,2022-12-09,SYS-BIRMINGHAM-20,,,true,17.8,0.23,41.2,0.5,36200,16,4,Birmingham system-wide report; interruptions at historic lows.
+R223,2023-06-18,SYS-FAYETTE-24,FAYETTE-327,Fayette North Rural,false,378.6,2.01,188.3,,790,17,5,Severe summer storm caused outages and high SAIDI on rural feeder.
+R224,2021-05-24,SYS-PHOENIX-25,,,true,78.5,1.64,47.8,,55800,52,27,"Phoenix system-wide report, reliability affected by heatwave outages."
+R225,2020-06-18,SYS-MONTGOMERY-26,MONT-208,Montgomery Historic,false,44.7,0.66,67.9,2.1,1530,11,7,"Older feeder with moderate interruption rates, mostly planned outages."
+R226,2022-03-15,SYS-JACKSON-27,,,true,22.9,0.4,57.2,0.8,28900,14,7,"Jackson system-wide reliability, minor outages during spring storms."
+R227,2024-02-03,SYS-TULSA-28,TULSA-110,Tulsa Metro Loop,false,26.4,0.72,36.7,7.1,3650,12,33,Urban feeder with high momentary interruptions after ice storm.
+R228,2021-11-26,SYS-CHARLOTTE-29,CHAR-305,Charlotte Industrial Park,false,97.8,0.93,105.1,1.1,1535,13,8,Industrial feeder interruptions linked to equipment upgrades.
+R229,2022-01-30,SYS-PADUCAH-30,,,true,13.5,0.18,75.4,,31700,11,5,"Paducah system-wide performance, few interruptions after grid upgrades."
+R230,2023-02-27,SYS-AUBURN-31,AUBURN-212,Auburn East Rural,false,211.4,1.99,106.2,,685,15,2,Rural feeder impacted by flooding and extended outages.
+R231,2020-08-14,SYS-PEORIA-32,PEORIA-404,Peoria Business Loop,false,69.2,1.03,66.2,6.4,2615,13,35,Business feeder with high momentary interruptions caused by severe summer weather.
+R232,2021-04-06,SYS-GREENVILLE-33,,,true,30.7,0.69,44.3,1.2,24600,15,7,Greenville system-wide report; reliability metrics consistent with prior years.
+R233,2022-07-22,SYS-HUNTSVILLE-34,HUNT-117,Huntsville Suburban,false,84.5,1.21,69.8,1.3,1750,14,5,Suburban feeder with minor interruptions and brief outages.
+R234,2023-09-10,SYS-LITTLE-35,,,true,3.2,0.09,35.1,0.2,42100,9,2,Little Rock utility system-wide report; lowest interruption year on record.
+R235,2020-02-19,SYS-BATON-36,BATON-118,Baton Rouge North,false,56.1,0.89,62.9,7.5,3190,11,41,Feeder with high momentary interruptions following severe weather.
+R236,2021-06-17,SYS-TOPEKA-37,,,true,38.2,0.97,39.3,0.9,31200,17,7,Topeka system-wide annual reliability report; few major events recorded.
+R237,2022-10-23,SYS-MURFREESBORO-38,MURF-303,Murfreesboro Rural,false,320.6,2.09,153.3,,1040,18,5,Fall windstorm caused extended outages on rural feeder.
+R238,2024-05-12,SYS-VALDOSTA-39,,,true,46.5,1.14,40.7,1.5,27200,20,10,Valdosta system-wide report; performance slightly improved from last year.
+R239,2021-12-03,SYS-NEWNAN-40,,,true,0,0,0,,25500,0,0,Zero outage report for Newnan system after major infrastructure upgrades.
+R240,2023-04-30,SYS-ODESSA-41,ODESSA-319,Odessa South Feeder,false,38.8,0.92,42.1,6.2,1550,10,36,High momentary interruptions on suburban feeder following severe weather.
+R241,2022-05-13,SYS-MIDLAND-42,MIDLAND-210,Midland Commercial,false,59.4,1.11,53.6,1.5,2240,12,9,Commercial feeder interruptions linked to new development and infrastructure changes.
+R242,2020-07-07,SYS-FLINT-43,,,true,67.2,1.27,53,1,25900,24,15,"Flint system-wide reliability, stable annual performance with moderate weather events."
+R243,2021-02-02,SYS-BRYANT-44,BRYANT-221,Bryant Estates Rural,false,273.5,2.03,134.7,,890,16,4,Winter storm caused above-average outage durations on rural feeder.
+R244,2023-07-23,SYS-TYLER-45,,,true,77.8,1.48,52.7,1.3,30600,41,14,Tyler system-wide reliability report; summer storms caused increased interruptions.
+R245,2024-03-18,SYS-MCALLEN-46,MCALLEN-311,McAllen North Feeder,false,19.6,0.67,29.2,6.9,2680,11,38,Feeder experienced increased momentary interruptions after spring rainstorms.
+R246,2021-08-13,SYS-ABILENE-47,,,true,16.9,0.38,44.7,0.5,21300,9,3,"Abilene system-wide reliability, minimal outages recorded during summer."
+R247,2022-11-22,SYS-TEMPLE-48,TEMPLE-406,Temple Urban Center,false,29.4,0.7,42,7.2,3580,13,39,Urban feeder with high momentary interruptions due to equipment upgrades.
+R248,2020-05-01,SYS-LUBBOCK-49,,,true,81.3,1.59,51.1,1.2,35500,46,18,Lubbock system-wide report; reliability metrics typical for region.
+R249,2023-03-16,SYS-ODESSA-41,ODESSA-211,Odessa North Feeder,false,53.8,1.04,51.7,1.6,2320,12,7,Northern feeder with moderate interruptions and stable performance.
+R250,2021-10-11,SYS-TYLER-45,,,true,0,0,0,,29700,0,0,Zero interruption system-wide report for Tyler following major upgrades.
+R201,2021-03-14,SYS-BOSTON-06,,,true,18.6,1.1,16.9,0.9,22800,41,7,"Annual reliability summary for Boston Metro electric system, focusing on urban performance metrics."
+R202,2023-06-09,SYS-OMAHA-03,OMAHA-NORTH-101,North Industrial Parkway,false,72.3,1.7,42.5,1.2,1840,19,4,"Feeder affected by construction and scheduled upgrades throughout the year, moderate reliability impact."
+R203,2022-11-17,SYS-SPOKANE-04,,,true,33.7,1.3,25.9,0.7,18000,55,12,"System-wide performance report for Spokane region, highlights improved outage response metrics."
+R204,2020-07-23,SYS-FRESNO-09,FRESNO-EAST-008,East Valley Substation,false,188.5,2.4,76.3,2.5,1300,31,6,"Rural feeder with aging infrastructure and moderate storm impact, above average interruption duration."
+R205,2023-10-29,SYS-TULSA-02,TULSA-WEST-011,Westside Commerce,false,43.2,0.8,54,1.9,2890,18,2,"West Tulsa feeder with stable reliability, minor increase in momentary events due to equipment upgrades."
+R206,2024-02-08,SYS-PHOENIX-11,,,true,12.4,0.6,20.7,0.3,37500,22,10,"Phoenix citywide reliability metrics, low SAIDI and SAIFI reflecting proactive maintenance."
+R207,2021-09-30,SYS-PORTLAND-04,PORTLAND-SOUTH-150,South Waterfront Loop,false,65.9,1.3,51.8,7.2,2100,15,36,High momentary interruption rate for South Waterfront feeder due to autumn storms and heavy winds.
+R208,2022-01-14,SYS-DENVER-07,,,true,28.1,0.9,32.2,1.1,42000,37,14,Denver city annual reliability report; low interruption frequency and improved restoration times.
+R209,2023-03-27,SYS-DETROIT-13,DETROIT-EAST-124,Eastside Greenfield,false,104.7,2.2,48.2,1,3200,26,7,Feeder experienced multiple scheduled outages for equipment replacement; reliability improved post-project.
+R210,2022-09-10,SYS-JACKSON-05,,,true,23.5,0.8,29.4,,15000,29,11,Jackson city system-wide reliability; null MAIFI due to missing momentary event data for this period.
+R211,2020-05-21,SYS-SEATTLE-02,SEATTLE-QUEEN-020,Queen Anne Residential,false,24.1,0.7,32.6,0.7,1850,12,4,Queen Anne feeder serving residential district with low outage frequency and short restoration times.
+R212,2021-07-18,SYS-KNOXVILLE-08,,,true,92.2,1.6,56.5,1.6,31900,60,19,"Knoxville system reliability, moderate increase in SAIDI due to late summer thunderstorms."
+R213,2023-05-03,SYS-SAVANNAH-10,SAVANNAH-COAST-019,Coastal Pines,false,186.2,2.7,68.5,1.6,900,33,5,Feeder impacted by coastal storms; elevated SAIDI and SAIFI observed in spring months.
+R214,2024-01-12,SYS-MILWAUKEE-01,,,true,41.3,1.2,34.6,,49500,49,18,Milwaukee city system-wide reliability report; momentary interruption data unavailable for Q1.
+R215,2021-10-16,SYS-TAMPA-12,TAMPA-NORTH-023,North Tampa Oaks,false,79.7,1.9,41.9,1.3,2360,22,9,"North Tampa feeder, moderate reliability, affected by tree trimming and planned outages."
+R216,2022-05-05,SYS-COLUMBUS-14,,,true,14.9,0.5,19.6,0.7,23100,17,8,"Columbus system reliability, low SAIDI and SAIFI values mark strong grid performance."
+R217,2021-08-11,SYS-TUCSON-05,TUCSON-SUNSET-077,Sunset Ranch,false,54.3,1,55.8,2.9,1450,13,8,Rural Tucson feeder with above-average momentary interruptions following monsoon season.
+R218,2020-02-26,SYS-HOUSTON-11,,,true,76.1,1.4,53,1.2,63800,101,31,"Houston region annual report, strong performance despite increased system demand and summer heat."
+R219,2024-04-01,SYS-CINCINNATI-09,CINCINNATI-EAST-201,East Ridge Estates,false,93,1.8,51.7,1.1,3070,24,6,"East Ridge Estates feeder, reliability impacted by spring storms and vegetation management."
+R220,2023-01-07,SYS-MOBILE-06,,,true,29.8,1,26.9,0.5,15700,27,6,"Mobile system-wide performance, steady reliability with minor seasonal disruptions."
+R221,2024-03-06,SYS-LASVEGAS-02,LASVEGAS-STRIP-213,Las Vegas Strip North,false,47.2,0.9,52.4,6.7,3900,17,41,"Las Vegas Strip North feeder, elevated momentary interruptions due to high tourist season and grid stress."
+R222,2021-02-02,SYS-MEMPHIS-07,,,true,8.5,0.4,20,,19500,13,,Memphis system reliability summary; null momentary interruption data for Q1 due to reporting error.
+R223,2022-10-20,SYS-MINNEAPOLIS-10,MINNEAPOLIS-WEST-009,West Lakeview,false,66.8,1.4,49.6,1.3,1780,15,8,"West Lakeview feeder, typical urban reliability metrics, minor increase in interruptions during autumn."
+R224,2023-09-15,SYS-ALBUQUERQUE-03,,,true,51.6,1.5,35.9,1.6,21300,38,16,"Albuquerque electric system annual summary, moderate reliability with planned network expansion."
+R225,2022-06-11,SYS-KANSASCITY-05,KANSASCITY-CITY-099,City Center Plaza,false,28.9,0.6,48.3,1.2,960,9,3,"City Center Plaza feeder, reliable urban distribution with low outage frequency."
+R226,2024-05-11,SYS-LOUISVILLE-04,,,true,36.5,1.1,33.2,0.9,27200,34,12,"Louisville system-wide reliability report, continued trend of low-duration outages."
+R227,2021-11-28,SYS-AUSTIN-14,AUSTIN-NORTH-134,North Shoal Creek,false,112.7,1.6,70.4,2.1,2270,19,5,"North Shoal Creek feeder, increased SAIDI due to multiple weather events this year."
+R228,2023-04-18,SYS-INDIANAPOLIS-02,,,true,62,1.7,36.7,,30500,47,20,"Indianapolis system-wide reliability, momentary interruptions not recorded due to short reporting window."
+R229,2022-12-07,SYS-ORLANDO-13,ORLANDO-EAST-077,East Pine Estates,false,81.4,1.9,44.6,1.4,2530,21,7,"East Pine Estates feeder, reliability affected by summer storms and vegetation-related outages."
+R230,2020-09-12,SYS-SANANTONIO-09,,,true,27.2,0.7,25.1,0.5,16600,19,5,"San Antonio system-wide metrics, improvement observed in outage frequency and restoration time."
+R231,2024-06-15,SYS-CHICAGO-10,CHICAGO-WEST-141,West Fulton Park,false,53.8,1.2,44.8,7.9,3150,14,42,"West Fulton Park feeder, high momentary interruption rate attributed to frequent wind events."
+R232,2023-08-04,SYS-RICHMOND-07,,,true,58.5,1.3,44.3,1.3,37600,53,13,"Richmond annual reliability report, stable metrics with minor increases in momentary interruptions."
+R233,2022-03-23,SYS-CHARLOTTE-08,CHARLOTTE-SOUTH-098,South End Business,false,48.1,1.1,43.7,1,2980,13,6,"South End Business feeder, typical urban performance with low-duration outages."
+R234,2021-04-02,SYS-BALTIMORE-06,,,true,38.9,1.2,32.4,0.6,18300,24,7,"Baltimore system-wide report, low SAIDI and SAIFI attributed to enhanced grid monitoring."
+R235,2023-12-17,SYS-NASHVILLE-05,NASHVILLE-CENTRAL-125,Central Music Row,false,64.2,1.3,49,1.4,2370,12,5,"Central Music Row feeder, reliability improved following substation maintenance and upgrades."
+R236,2021-06-22,SYS-SALTLAKE-02,,,true,16.7,0.6,27.9,0.4,13400,13,4,"Salt Lake City system-wide, reliability metrics indicate lower-than-average interruptions."
+R237,2020-12-20,SYS-CLEVELAND-09,CLEVELAND-SOUTH-102,South Edgewater,false,128.1,2.3,55.7,1.8,1300,21,8,"South Edgewater feeder, reliability affected by winter storms and aging grid infrastructure."
+R238,2024-01-20,SYS-NEWARK-14,,,true,24.5,0.8,26.7,,22800,18,7,"Newark city system-wide reliability, momentary interruption data not reported for January period."
+R239,2022-08-09,SYS-SANJOSE-11,SANJOSE-DOWNTOWN-088,Downtown Market,false,19.7,0.6,32.7,1,950,8,3,"Downtown Market feeder, urban reliability metrics, low outage duration and frequency."
+R240,2021-12-10,SYS-ELPASO-14,,,true,46.4,1.1,42.3,1.1,29000,30,13,"El Paso system-wide reliability summary, metrics stable across winter season."
+R241,2023-07-21,SYS-RALEIGH-03,RALEIGH-WEST-101,Westview Farms,false,170.5,2.6,65.6,1.7,1270,34,9,"Westview Farms feeder, high SAIDI due to severe summer storms and equipment failures."
+R242,2022-04-28,SYS-HARTFORD-07,,,true,17.9,0.7,22.9,0.6,15900,14,5,"Hartford system-wide reliability, low outage frequency and short restoration times."
+R243,2024-02-21,SYS-TULSA-08,TULSA-DOWNTOWN-042,Downtown Financial,false,36.3,0.7,51.8,6.2,2750,14,39,"Downtown Financial feeder, elevated momentary interruptions due to increased commercial activity."
+R244,2023-11-14,SYS-MADISON-02,,,true,39.5,1.2,33.7,1.1,24800,28,10,"Madison system-wide reliability, stable metrics reported for annual performance."
+R245,2022-07-08,SYS-TUCSON-09,TUCSON-EAST-021,East Valley Estates,false,93.6,1.9,49.2,1.6,2590,21,8,"East Valley Estates feeder, reliability impacted by summer storms and vegetation outages."
+R246,2021-05-14,SYS-STLOUIS-10,,,true,15.2,0.6,23.8,0.4,17800,11,3,"St. Louis system-wide reliability report, low metrics due to enhanced preventive maintenance."
+R247,2024-05-28,SYS-SEATTLE-08,SEATTLE-BALLARD-055,Ballard Locks,false,50.2,1,50.2,7.2,3120,13,40,"Ballard Locks feeder, high momentary interruption rate linked to summer construction projects."
+R248,2021-01-30,SYS-PITTSBURGH-06,,,true,93.7,1.8,53.2,1.7,23400,41,13,"Pittsburgh system-wide reliability, above-average SAIDI influenced by winter outages."
+R249,2022-02-17,SYS-OMAHA-10,OMAHA-SOUTH-127,South Market Loop,false,78.2,1.5,52.1,1.5,2080,15,7,"South Market Loop feeder, reliability impacted by supply upgrades and minor equipment failures."
+R250,2023-06-25,SYS-BOSTON-15,,,true,19.3,0.6,21.4,0.7,24800,13,4,"Boston Metro electric system annual summary, continued trend of low outage metrics."
+R251,2024-03-19,SYS-AUSTIN-16,,,true,42.8,0.9,48.2,1.1,25300,30,11,"Annual reliability report for Austin regional system, reflecting improvements in outage response."
+R301,2021-02-18,SYS-AUSTIN-12,,,true,34.2,0.98,34.9,1.1,34700,87,15,"Annual reliability metrics for Austin region, urban coverage, weather-related events included."
+R302,2023-03-09,SYS-MOBILE-07,MOBILE-102,Downtown Main,false,61.7,1.3,47.5,0.9,1200,19,4,Downtown feeder experienced interruptions mainly due to line maintenance activities.
+R303,2022-05-14,SYS-MESA-04,,,true,23.6,1.02,23.1,,19000,41,13,"Mesa system-wide reliability statistics, routine service year."
+R304,2024-01-02,SYS-TULSA-16,TULSA-215,Eastside Industrial,false,154.2,2.2,79.3,1.7,1800,31,7,"Feeder with high industrial load, upgrades scheduled after repeated outages."
+R305,2023-07-26,SYS-BOSTON-22,,,true,55.6,1.14,48.6,1.6,53000,109,34,"Boston utility annual report, summer weather led to higher momentary interruptions."
+R306,2022-09-10,SYS-OMAHA-13,OMAHA-301,North Farms,false,311.9,1.65,116.2,2.5,790,27,8,Aging infrastructure and rural location contributed to high outage durations.
+R307,2020-12-02,SYS-WACO-09,,,true,11.8,0.51,23.1,0.2,16500,22,5,"Waco system reliability report, lowest interruption year on record."
+R308,2022-06-28,SYS-DENVER-10,DENVER-054,South Metro,false,92.3,1.19,77.6,,3600,18,2,"South Metro feeder, impacted by severe thunderstorms in June."
+R309,2021-09-17,SYS-TOLEDO-33,,,true,15.9,0.87,18.2,0.4,11800,16,7,"Toledo system-wide metrics, urban area with low outage frequency."
+R310,2023-04-11,SYS-YAKIMA-07,YAKIMA-118,West Ridge,false,64.7,1.01,64.1,0.7,2300,21,5,West Ridge feeder experienced multiple short outages after spring storms.
+R311,2024-01-29,SYS-CHATTANOOGA-15,,,true,21.5,0.87,24.7,,15900,25,6,"Chattanooga city-wide annual metrics, low momentary event count."
+R312,2023-11-17,SYS-ROCHESTER-06,ROCHESTER-207,Lakeview Estates,false,227.1,1.96,115.9,2.9,1590,39,9,"Lakeview Estates rural feeder, aging lines and tree contact incidents."
+R313,2020-07-15,SYS-ALBUQUERQUE-08,,,true,46.8,1.24,44.2,0.7,26500,52,15,"Albuquerque utility annual summary, minor weather-related outages."
+R314,2022-08-20,SYS-GREENVILLE-18,GREENVILLE-046,Maple Grove,false,87.5,1.39,63,,2640,17,6,"Feeder Maple Grove, interruptions due to planned maintenance in August."
+R315,2021-06-13,SYS-ELPASO-19,,,true,11.2,0.68,16.5,0.5,9600,12,5,"El Paso urban system, strong reliability performance in 2021."
+R316,2023-10-24,SYS-MADISON-03,MADISON-088,Elm Street,false,105.3,2.8,37.6,6.1,4110,24,36,High momentary interruption rate in Elm Street feeder due to fall wind events.
+R317,2021-11-05,SYS-COLUMBUS-21,,,true,64.4,1.21,53.2,,22400,79,18,"Columbus system-wide, increased outages due to regional windstorm."
+R318,2023-05-21,SYS-RIVERSIDE-11,RIVERSIDE-021,Central Commercial,false,55.8,1.07,52.2,5.7,1540,15,32,"Commercial feeder, high momentary interruptions after equipment failure."
+R319,2022-03-17,SYS-MONTANA-23,,,true,98.1,1.46,67.2,2,40700,142,29,"Montana utility annual report, rural coverage, winter weather impacts."
+R320,2020-11-24,SYS-BIRMINGHAM-24,BIRMINGHAM-305,Oak Hill,false,156.4,1.81,86.4,,1120,31,7,"Oak Hill feeder, rural area, multiple sustained interruptions due to aging poles."
+R321,2023-08-31,SYS-CHARLOTTE-14,,,true,22.7,0.92,24.7,1.2,17300,34,10,"Charlotte system, typical reliability year, some momentary events after thunderstorms."
+R322,2024-03-13,SYS-PORTLAND-02,PORTLAND-223,Garden District,false,73.9,0.97,76.2,1.5,2020,18,6,"Garden District feeder, spring outage events, lines affected by vegetation."
+R323,2021-05-04,SYS-NEWARK-17,,,true,44.1,1.03,42.8,0.6,21400,46,11,"Newark utility reliability summary, urban feeders show low sustained interruptions."
+R324,2022-10-12,SYS-MILWAUKEE-05,MILWAUKEE-185,Riverbend,false,54.3,0.67,81,0.4,1530,13,3,"Riverbend feeder, interruptions due to equipment upgrades."
+R325,2023-02-19,SYS-SPOKANE-20,,,true,27.4,0.94,29.2,,12200,23,8,"Spokane city-wide reliability, mild winter season, low outage rates."
+R326,2021-07-08,SYS-LEXINGTON-25,LEXINGTON-019,Sunrise Loop,false,69.8,1.27,54.9,,1340,16,4,"Sunrise Loop feeder, summer outages following transformer failures."
+R327,2020-08-11,SYS-MINNEAPOLIS-01,,,true,17.2,0.83,20.8,0.3,8700,13,4,"Minneapolis reliability metrics, below-average outage year."
+R328,2022-05-29,SYS-SAVANNAH-26,SAVANNAH-309,Magnolia Park,false,194.7,1.74,122.9,1.8,990,37,10,"Magnolia Park feeder, repeated outages from heavy rains and high winds."
+R329,2024-02-14,SYS-MEMPHIS-27,,,true,62.3,1.09,57.2,1.3,30100,103,21,"Memphis system-wide report, above-average momentary interruptions after ice storm."
+R330,2021-08-19,SYS-JACKSON-28,JACKSON-078,River Street,false,86.9,1.09,79.7,0.7,2500,19,6,"River Street feeder, interruptions linked to power line repairs."
+R331,2020-05-22,SYS-NEWORLEANS-29,,,true,38.5,0.95,40.6,,14900,36,9,"New Orleans city-wide reliability, low sustained interruptions."
+R332,2022-11-10,SYS-HARTFORD-30,HARTFORD-201,Pine Hill,false,69.2,1.58,43.8,0.8,2100,14,4,"Pine Hill feeder, interruptions due to substation upgrades and maintenance."
+R333,2023-01-18,SYS-BUFFALO-31,,,true,19.7,0.72,27.4,0.5,13700,15,6,"Buffalo city-wide, stable reliability year, minimal weather events."
+R334,2024-04-07,SYS-LITTLE ROCK-32,LROCK-157,Hickory Valley,false,59.4,0.9,66,1.1,2410,16,5,"Hickory Valley feeder, outages due to vegetation growth and wind gusts."
+R335,2022-04-29,SYS-ATLANTA-34,,,true,95.5,1.79,53.4,1.9,42600,172,36,"Atlanta utility annual report, high interruptions due to spring storms."
+R336,2021-10-27,SYS-PHOENIX-35,PHOENIX-212,Camelback,false,77.8,1.07,72.7,,1890,18,5,"Camelback feeder, autumn maintenance interruptions and isolated faults."
+R337,2023-07-11,SYS-INDIANAPOLIS-36,,,true,87.2,1.22,71.4,2,29300,103,27,"Indianapolis system-wide, momentary interruptions spiked in July storms."
+R338,2020-06-13,SYS-SANTAFE-37,SANTAFE-221,Old Town,false,68.2,1.24,55.7,0.9,1720,13,2,"Old Town feeder, minimal outages, system upgrade completed."
+R339,2022-12-03,SYS-RALEIGH-38,,,true,34.9,0.84,41.4,0.7,15800,28,9,"Raleigh city-wide metrics, reliability impacted by ice storm in December."
+R340,2023-06-22,SYS-CINCINNATI-39,CINCY-117,Woodland Ridge,false,58.1,0.85,68.3,1.2,2210,12,4,"Woodland Ridge feeder, interruptions due to substation faults in June."
+R341,2024-02-09,SYS-SEATTLE-40,,,true,31.6,0.82,38.7,,13700,19,7,"Seattle system-wide, annual reliability report, mild winter impacts."
+R342,2021-09-22,SYS-TAMPA-41,TAMPA-011,Sunset Park,false,48.5,0.7,69.3,0.5,1630,11,3,"Sunset Park feeder, interruptions due to transformer replacements."
+R343,2023-05-03,SYS-DESMOINES-42,,,true,48.9,0.99,49.4,1,18700,36,10,"Des Moines system, annual metrics report, minor outages from wind events."
+R344,2020-10-23,SYS-SALEM-43,SALEM-144,Foothills,false,79.6,1.15,69.2,,1850,15,5,"Foothills feeder, interruptions from line faults and equipment upgrades."
+R345,2022-06-18,SYS-LUBBOCK-44,,,true,34.6,0.61,56.7,0.6,11700,21,5,"Lubbock system-wide reliability metrics, typical performance year."
+R346,2024-03-02,SYS-FARGO-45,FARGO-218,Maple Valley,false,72.1,1.33,54.2,1.3,2090,17,6,"Maple Valley feeder, interruptions due to substation maintenance and wind."
+R347,2021-03-30,SYS-AKRON-46,,,true,51.4,1.02,50.4,,19800,33,8,"Akron system-wide reliability, annual performance within target range."
+R348,2023-08-14,SYS-BILLINGS-47,BILLINGS-289,Pine Ridge,false,88.7,1.08,82.2,1.5,2470,18,5,"Pine Ridge feeder, interruptions after heavy summer rainfall."
+R349,2022-02-03,SYS-ORLANDO-48,,,true,41.2,0.97,42.2,0.5,16400,27,7,"Orlando city-wide reliability, outages mostly due to equipment faults."
+R350,2024-05-11,SYS-BOISE-49,BOISE-026,Vista Heights,false,73.5,1.21,60.8,,2150,17,4,"Vista Heights feeder, reliability impacted by preventive maintenance in May."
+R801,2022-03-15,SYS-MADISON-06,,,true,44.7,1.16,38.53,1.02,18500,68,19,"Annual system-wide summary for Madison utility, including upgrades and mild storm events."
+R802,2023-08-17,SYS-OMAHA-11,OMAHA-502,Westside Commerce,false,23.4,0.91,25.73,6.44,3055,15,37,"Feeder experienced high momentary interruptions due to summer storms, commercial area."
+R803,2021-11-03,SYS-ROCHESTER-03,,,true,12.1,0.56,21.81,,24700,54,8,"Low interruption year for Rochester, with minimal weather-related events."
+R804,2020-04-21,SYS-GREENVILLE-13,GREEN-104,Pine Valley,false,59.8,1.64,62.91,1.21,845,22,2,"Rural feeder with aging infrastructure, Pine Valley experienced moderate outages."
+R805,2022-07-06,SYS-BOSTON-21,,,true,0,0,0,,31100,0,0,System-wide report for Boston utility; no recorded interruptions this period.
+R806,2023-02-12,SYS-DALLAS-16,DALLAS-293,Meadowbrook Estates,false,41.2,1.03,39.98,0.74,1230,17,6,Meadowbrook Estates feeder had minor outages during winter storms.
+R807,2022-12-22,SYS-SPOKANE-14,SPOK-511,North Industrial,false,149.2,2.72,54.85,2.03,3852,32,9,"Industrial feeder, North Spokane, saw increased outages due to equipment failure."
+R808,2024-01-19,SYS-BOISE-02,,,true,18.6,0.72,21.05,0.59,22100,40,12,Boise system-wide summary with average outage rates and momentary interruptions.
+R809,2023-06-30,SYS-HARTFORD-19,HART-220,Elmwood Residential,false,75.3,1.48,51.04,0.83,1620,23,5,Elmwood Residential experienced increased outages after a severe thunderstorm.
+R810,2021-09-24,SYS-TULSA-17,,,true,29.9,1.24,24.11,,29400,57,11,Tulsa system-wide metrics; outages primarily due to scheduled upgrades.
+R811,2023-04-03,SYS-RENO-23,RENO-108,South Hills,false,189.4,2.94,64.47,1.98,930,41,3,South Hills feeder in Reno experienced extended outages from wildfires.
+R812,2022-10-11,SYS-LINCOLN-09,,,true,0,0,0,,15100,0,0,"Lincoln system-wide report, no interruptions recorded, routine maintenance period."
+R813,2024-04-09,SYS-ALBANY-18,ALBNY-321,Riverside,false,119.7,1.55,77.29,2.12,1720,28,7,Riverside feeder in Albany faced moderate outages due to spring flooding.
+R814,2020-08-02,SYS-MOBILE-10,,,true,38.2,0.93,38.98,0.57,26500,61,14,Mobile system-wide summary; typical summer storm interruptions.
+R815,2023-12-07,SYS-CHATTANOOGA-25,CHATT-406,Mapleview Estates,false,45.6,0.86,53.02,1.19,1340,14,4,"Mapleview Estates feeder, Chattanooga, minor outages following ice storm."
+R816,2021-05-28,SYS-FRESNO-15,,,true,99.6,1.92,51.91,,18700,111,27,"Fresno system-wide report, higher-than-average outages due to heatwave."
+R817,2022-06-14,SYS-MINNEAPOLIS-08,MINN-215,Lakeside North,false,87.2,1.44,60.58,0.65,2050,18,8,"Lakeside North feeder, Minneapolis, moderate outages during summer storms."
+R818,2023-01-25,SYS-NEWARK-22,,,true,13.5,0.49,27.55,0.38,18300,26,5,"Newark system-wide, low outages, improved reliability after upgrades."
+R819,2020-10-16,SYS-COLUMBUS-05,COL-012,Eastside Suburban,false,164.9,2.11,78.16,,810,27,0,"Eastside Suburban feeder in Columbus, rural area, aging lines caused frequent outages."
+R820,2024-02-28,SYS-PHOENIX-27,,,true,31.8,0.98,32.45,0.96,33600,50,18,"Phoenix system-wide annual summary, typical urban reliability metrics."
+R821,2022-11-13,SYS-INDIANAPOLIS-24,INDY-303,Broad Ripple,false,69.3,1.23,56.33,1.48,2570,21,6,"Broad Ripple feeder, Indianapolis, outages mostly due to construction nearby."
+R822,2021-12-10,SYS-SANJOSE-12,,,true,56.2,1.49,37.73,,27000,76,17,"San Jose system-wide, minor outages, routine annual report."
+R823,2020-09-11,SYS-TUCSON-20,TUCSON-809,Desert Park,false,95.4,1.62,58.89,0.98,1460,19,7,"Desert Park feeder, Tucson, moderate outages after monsoon season."
+R824,2023-07-21,SYS-OKLAHOMA-01,,,true,67.8,1.55,43.74,1.31,28100,105,24,"Oklahoma City system-wide, outages increased due to tornadoes."
+R825,2022-05-16,SYS-LITTLE-ROCK-04,LITROCK-482,Hillcrest,false,35.8,1.18,30.34,8.59,3135,12,43,"Hillcrest feeder, Little Rock, high momentary interruptions due to spring storms."
+R826,2021-10-04,SYS-BUFFALO-07,,,true,24.7,0.79,31.27,0.41,21800,32,9,"Buffalo system-wide, outages below average, no major weather events."
+R827,2020-03-22,SYS-SACRAMENTO-28,SAC-994,Riverfront,false,173.2,2.13,81.34,,710,20,,"Riverfront feeder, Sacramento, increased outages during flooding season."
+R828,2022-08-09,SYS-PORTLAND-26,,,true,85.5,1.87,45.72,1.44,33900,184,45,"Portland system-wide, higher outages due to windstorm and equipment upgrades."
+R829,2021-07-13,SYS-MEMPHIS-29,MEM-377,Southgate,false,61.3,1.27,48.28,1.01,990,13,5,"Southgate feeder in Memphis, outages from lightning strikes and scheduled work."
+R830,2024-03-04,SYS-DETROIT-30,,,true,52.3,1.12,46.66,0.89,29800,36,13,"Detroit system-wide, typical reliability metrics, some outages from ice storms."
+R831,2022-01-18,SYS-RALEIGH-31,RALEIGH-224,Oakwood,false,97.9,1.71,57.29,1.73,1870,25,6,"Oakwood feeder in Raleigh, outages from wind and fallen trees."
+R832,2023-03-28,SYS-MONTGOMERY-32,,,true,78.7,1.64,48.01,1.17,16200,88,19,"Montgomery system-wide, outages increased during tornado season."
+R833,2021-04-06,SYS-JACKSON-33,JACK-990,Cedar Ridge,false,51.9,1.11,46.76,0.82,860,11,4,"Cedar Ridge feeder, Jackson, short outages during scheduled line upgrades."
+R834,2022-09-27,SYS-BIRMINGHAM-34,,,true,72.1,1.27,56.82,,17200,95,20,"Birmingham system-wide, outages from heavy rain and equipment failure."
+R835,2024-05-21,SYS-MILWAUKEE-35,MILW-152,Silver Lake,false,38.6,0.97,39.81,7.92,2440,17,38,"Silver Lake feeder, Milwaukee, high momentary interruptions after thunderstorms."
+R836,2023-10-16,SYS-CHARLOTTE-36,,,true,49.2,1.09,45.17,0.62,24100,72,16,"Charlotte system-wide, outages from scheduled construction and minor storms."
+R837,2021-08-05,SYS-SAVANNAH-37,SAV-444,Magnolia Gardens,false,131.6,2.16,60.93,1.36,1390,21,7,"Magnolia Gardens feeder, Savannah, outages during hurricane warning."
+R838,2022-04-19,SYS-TOPEKA-38,,,true,31.1,0.88,35.34,0.47,21900,29,8,"Topeka system-wide, outages from spring flooding and equipment checks."
+R839,2023-05-09,SYS-ELPASO-39,ELPASO-155,Sunset Ridge,false,92.4,1.47,62.89,0.96,1260,16,5,"Sunset Ridge feeder, El Paso, outages due to high winds and substation upgrades."
+R840,2021-03-16,SYS-SALEM-40,,,true,58.9,1.06,55.56,1.14,15500,89,23,"Salem system-wide, outages from ice storm and tree damage."
+R841,2024-04-30,SYS-ORLANDO-41,ORL-258,Lake Eola,false,80.7,1.43,56.45,0.92,1580,20,7,"Lake Eola feeder, Orlando, outages from thunderstorms and line upgrades."
+R842,2022-02-07,SYS-JUNEAU-42,,,true,14.2,0.54,26.28,,17400,21,4,"Juneau system-wide, low outages, improved reliability after upgrades."
+R843,2023-06-11,SYS-NEWORLEANS-43,NO-781,Bayou Terrace,false,106.8,1.99,53.68,2.24,1960,27,8,"Bayou Terrace feeder, New Orleans, outages during hurricane recovery."
+R844,2020-05-25,SYS-TAMPA-44,,,true,36.4,0.92,39.51,0.73,24300,40,11,"Tampa system-wide, annual summary with below-average interruptions."
+R845,2022-07-29,SYS-PITTSBURGH-45,PITT-209,Southside Works,false,48.1,1.08,44.54,7.16,2370,15,32,"Southside Works feeder, Pittsburgh, high momentary interruptions following storms."
+R846,2021-06-21,SYS-ANCHORAGE-46,,,true,17.8,0.65,27.47,0.52,23400,25,6,"Anchorage system-wide, low outages, routine annual report."
+R847,2023-09-18,SYS-STLOUIS-47,STL-312,Forest Park,false,67.4,1.22,55.18,1.34,1560,15,6,"Forest Park feeder, St. Louis, outages due to tree damage during storms."
+R848,2024-02-13,SYS-CINCINNATI-48,,,true,60.4,1.14,52.98,1.01,18900,39,12,"Cincinnati utility system-wide, outages from ice and line upgrades."
+R849,2022-05-03,SYS-RICHMOND-49,RICH-173,Westover Hills,false,77.3,1.29,59.93,1.22,1430,16,5,"Westover Hills feeder, Richmond, outages from spring storms and upgrades."
+R850,2021-02-12,SYS-ALBUQUERQUE-50,,,true,66.7,1.18,56.54,,20300,66,17,"Albuquerque system-wide summary, outages caused by winter weather."
+R801,2023-09-16,SYS-MINNEAP-17,,,true,44.6,1.12,39.8,1.2,21850,52,17,"Annual reliability summary for Minneapolis urban grid, typical year with minor weather impacts."
+R802,2024-03-20,SYS-ELPASO-08,ELPASO-202,Airport Commercial Line,false,67.9,1.71,39.7,7.3,1875,21,32,Feeder serving airport and nearby businesses. Higher momentary interruptions due to spring storms.
+R803,2022-07-21,SYS-TULSA-13,,,true,62.2,1.35,46.1,1.6,46400,98,45,"Comprehensive system-wide report for Tulsa utility, including outage restoration performance."
+R804,2020-12-11,SYS-NEWARK-24,NEWARK-307,Eastside Industrial,false,139.4,2.78,50.1,2.2,720,29,8,Rural/industrial feeder with aging infrastructure; higher sustained outage rates than average.
+R805,2021-05-18,SYS-SAVANNH-04,,,true,17.3,0.69,25.1,0.8,14900,37,5,"Savannah system-wide report; strong reliability performance, minimal weather-related events."
+R806,2024-01-09,SYS-TORONTO-06,TORONTO-151,Lakefront Residences,false,25.6,0.87,29.4,6.5,2600,13,37,Residential feeder near lakeshore. High momentary interruptions from wind and ice events.
+R807,2023-07-25,SYS-OMAHA-20,,,true,71.3,1.43,49.8,1.9,32800,84,12,Omaha metro system-wide metrics; moderate outage frequency with rapid restoration times.
+R808,2021-09-08,SYS-MOBILE-11,MOBILE-420,Bayport Industrial,false,185.7,2.98,62.3,2.7,540,37,7,Industrial feeder affected by flood events; outage restoration delayed by access issues.
+R809,2022-11-12,SYS-ROCHEST-23,,,true,2.1,0.04,16.9,,92000,20,,"Rochester system-wide report; exceptional reliability, very low outage rates this year."
+R810,2020-06-13,SYS-TAMPA-09,TAMPA-193,Downtown Medical,false,39.7,1.05,37.8,1,1420,17,4,Medical district feeder; reliability enhanced by recent infrastructure upgrades.
+R811,2023-12-03,SYS-SEATTLE-14,,,true,90.1,1.92,47,2.1,38150,130,29,Seattle system-wide reliability; increased outages due to winter wind storms.
+R812,2022-03-17,SYS-NASHVL-10,NASHVL-075,Westwood Estates,false,108.9,2.12,,1.3,680,22,,Rural residential feeder; outage data incomplete for sustained events this period.
+R813,2021-11-29,SYS-BISMARCK-03,,,true,0,0,0,,0,0,,Boundary test: No customers or interruptions recorded for this annual cycle.
+R814,2024-04-02,SYS-ALBUQRQ-22,ALBUQ-011,Midtown Business,false,33.5,0.98,34.2,5.7,3120,16,39,Business corridor feeder; momentary interruptions increased by spring wind events.
+R815,2023-06-10,SYS-MEMPHIS-19,,,true,14.2,0.56,25.5,0.7,17250,16,3,"Memphis urban utility report; minimal outages, typical summer reliability."
+R816,2022-08-05,SYS-DENVER-21,DENVER-312,Green Valley North,false,54.8,1.24,44.2,8.9,2900,14,41,Suburban feeder with increased momentary interruptions during summer thunderstorms.
+R817,2020-07-29,SYS-BIRMINGH-12,,,true,9.7,0.38,25.6,0.4,15500,19,2,Birmingham system-wide annual report; strong performance with limited disruptions.
+R818,2023-10-27,SYS-PORTLND-01,PORTLND-022,Southgate Retail,false,23.4,1.03,22.7,7.6,3580,13,36,Retail area feeder; autumn weather increased momentary outage frequency.
+R819,2024-05-26,SYS-FARGO-02,,,true,56.1,1.21,46.3,1.3,26600,49,17,"Fargo annual reliability report; moderate outage rates, rapid restoration."
+R820,2021-03-02,SYS-INDIANPL-05,INDIANPL-115,Broad Ripple Homes,false,78.4,1.69,46.3,,1910,19,,Residential feeder serving Broad Ripple area; some data missing for momentary events.
+R821,2022-01-17,SYS-CHICAGO-18,,,true,97.7,1.99,49.1,2,42300,105,38,Chicago system-wide metrics; winter ice storm increased outage rates.
+R822,2023-02-18,SYS-DALAS-16,DALAS-313,Cedar Crest East,false,56.5,1.18,48.3,6.8,2640,15,33,Residential feeder east of Cedar Crest; increased momentary outages due to local wind.
+R823,2020-04-05,SYS-BOSTON-15,,,true,0,0,0,,0,0,,Boundary test: Boston system-wide report with no customers/data for outage metrics.
+R824,2021-07-19,SYS-COLUMBUS-07,COLUMBUS-141,Northside Townhomes,false,118.7,2.82,42.1,2.9,775,32,9,Feeder serving northside residential area; aging lines contributed to sustained outages.
+R825,2022-10-26,SYS-MILWAUK-25,,,true,66.3,1.45,45.7,1.7,32000,68,16,Milwaukee metro utility; outage restoration times improved after system upgrades.
+R826,2020-09-24,SYS-SPOKANE-27,SPOKANE-053,Sunset Ridge,false,172.3,3.01,57.2,2.5,634,39,8,Rural feeder with recurring outages due to trees and access delays.
+R827,2024-02-23,SYS-JACKSON-28,,,true,18.2,0.67,27.1,0.6,12650,29,4,Jackson system-wide report; improvement in momentary interruption rates this year.
+R828,2023-05-04,SYS-OMAHA-20,OMAHA-005,Central Market,false,32.4,1.09,29.7,7.2,2980,15,34,Market area feeder in Omaha; momentary interruptions increased by heavy rainfall.
+R829,2022-05-13,SYS-MINNEAP-17,,,true,39.5,1.07,38.6,1.1,20600,44,15,System-wide report for Minneapolis; reliability stable with few outage events.
+R830,2021-01-29,SYS-ALBUQRQ-22,ALBUQ-022,Highland Park,false,89.6,2.33,38.5,,1050,28,,Residential feeder for Highland Park; missing momentary data due to reporting gap.
+R831,2022-09-02,SYS-SEATTLE-14,,,true,49.7,1.22,41.2,1.4,29400,63,14,"Seattle annual reliability report; moderate performance, reduced restoration times."
+R832,2023-04-12,SYS-TAMPA-09,TAMPA-222,Gulfview Estates,false,44.6,1.11,40.2,6.3,2100,12,32,Suburban residential feeder near Tampa coast; spring storms drove momentary rates up.
+R833,2024-05-02,SYS-DENVER-21,,,true,53.5,1.19,41.9,1,25850,48,13,Denver metro system-wide; reliability metrics improved over previous years.
+R834,2021-06-15,SYS-BIRMINGH-12,BIRMINGH-087,Southside Industrial,false,174.9,2.87,60.9,2.3,910,37,9,Industrial feeder affected by recurring outages and delayed restoration times.
+R835,2022-12-27,SYS-SAVANNH-04,,,true,23.7,0.88,26.8,0.9,15800,34,6,Savannah system-wide report; improved reliability after vegetation management.
+R836,2020-05-22,SYS-JACKSON-28,JACKSON-121,Northwood Apartments,false,105.2,2.17,,1.8,1200,27,,Feeder serving Northwood Apartments; incomplete reporting for sustained events.
+R837,2023-07-19,SYS-TULSA-13,,,true,61.4,1.34,45.8,1.5,45800,97,44,Tulsa metro utility reliability metrics for mid-year report.
+R838,2021-08-03,SYS-ROCHEST-23,ROCHEST-291,Westview Villas,false,86.3,2.14,40.4,2.1,980,31,10,Westview Villas feeder; reliability affected by summer storms and aging lines.
+R839,2022-04-22,SYS-PORTLND-01,,,true,48.2,1.16,41.5,1.3,27750,51,15,System-wide Portland report; typical spring outage rates.
+R840,2024-01-21,SYS-MOBILE-11,MOBILE-428,Eastshore Commercial,false,28.1,0.94,30,6,2780,14,33,Commercial feeder near Mobile port; momentary interruptions due to equipment upgrades.
+R841,2021-04-07,SYS-INDIANPL-05,,,true,41.8,0.99,42.2,1.2,21300,43,12,Indianapolis metro system reliability; typical annual performance.
+R842,2023-01-11,SYS-MEMPHIS-19,MEMPHIS-210,Eastgate School,false,61.5,1.53,40.2,,1570,18,,School district feeder; missing momentary data for this reporting period.
+R843,2022-07-02,SYS-CHICAGO-18,,,true,55.7,1.13,49.2,1.1,41900,62,13,"Chicago system-wide summer report; reliability metrics stable, minor weather disruptions."
+R844,2020-10-12,SYS-MILWAUK-25,MILWAUK-081,Parkside Estates,false,64.2,1.26,51.1,7.9,1980,14,35,Residential feeder; momentary interruptions increased by autumn wind events.
+R845,2023-08-29,SYS-SPOKANE-27,,,true,23.6,0.82,28.4,0.5,13200,28,3,"Spokane citywide report; strong reliability, minor outages only."
+R846,2024-04-18,SYS-ELPASO-08,ELPASO-209,Desert Valley East,false,47.7,1.17,38.1,7.1,2330,13,31,Residential feeder in El Paso; spring dust storms increased momentary events.
+R847,2022-06-24,SYS-TORONTO-06,,,true,31.6,0.91,34.7,0.9,18700,34,7,Toronto citywide report; urban grid reliability metrics for annual cycle.
+R848,2020-11-21,SYS-FARGO-02,FARGO-110,Northridge Farms,false,124.7,2.87,42.7,2.5,850,29,10,Feeder serving rural edge; outage restoration times increased this year.
+R849,2023-03-28,SYS-SAVANNH-04,,,true,41.1,1.04,39.4,1.1,16900,39,8,Savannah system-wide report; spring reliability metrics stable.
+R850,2021-12-09,SYS-TULSA-13,TULSA-108,Southwood Apartments,false,62.2,1.47,42.9,,1720,18,,Feeder serving apartment complex; missing momentary data from reporting system.
+R1001,2024-04-14,SYS-DENVER-09,,,true,63.2,1.17,54,1.1,52380,129,24,"Annual reliability report for Denver metropolitan system-wide utility, typical urban performance."
+R1002,2023-08-10,SYS-OMAHA-02,OMAHA-013,West Maple Feeder,false,111.5,1.38,80.8,1.5,1800,22,6,West Maple feeder experienced above-average outages due to July thunderstorms and construction.
+R1003,2022-06-22,SYS-PORTLAND-06,,,true,82.3,0.95,62.2,,44910,99,19,"Annual system-wide review for Portland, lower outage frequency attributed to infrastructure upgrades."
+R1004,2021-01-30,SYS-TOPEKA-13,TOPEKA-207,Central Plaza Feeder,false,1342.7,18.9,711.4,7.2,410,210,54,Extreme event: Central Plaza feeder was severely impacted by multiple ice storms and equipment failures.
+R1005,2024-02-19,SYS-MOBILE-17,MOBILE-042,Airport Blvd Feeder,false,58.6,0.88,66.5,,1550,16,5,Airport Blvd feeder saw moderate interruptions due to temporary line maintenance.
+R1006,2023-11-05,SYS-MEMPHIS-11,MEMPHIS-030,Eastwood Feeder,false,91.4,1.14,80.2,0.5,2000,19,3,Eastwood feeder experienced planned outages for substation upgrades and cable replacements.
+R1007,2024-03-21,SYS-BISMARCK-10,BISMARCK-022,Northgate Feeder,false,38.7,1.01,38.3,7.8,3000,16,41,High momentary interruption rate in Northgate feeder attributed to spring wind gusts and line contacts.
+R1008,2022-10-09,SYS-ATLANTA-08,,,true,19.9,0.58,34.2,0.7,93300,73,11,Atlanta system-wide report demonstrates improved reliability following protective relay installation.
+R1009,2020-07-29,SYS-SPOKANE-05,SPOKANE-301,Riverbend Feeder,false,213.5,1.79,119.2,,1350,27,5,Riverbend feeder outage rates spiked after lightning strikes and aging transformer issues.
+R1010,2023-05-16,SYS-TUCSON-15,,,true,74,1.22,60.7,,66980,103,17,"Tucson system-wide annual summary, moderate outages and momentary interruptions."
+R1011,2021-08-27,SYS-AMARILLO-20,AMARILLO-021,Canyon Valley Feeder,false,2300.2,33.8,1200,9.6,370,650,67,Outlier: Canyon Valley feeder suffered extensive outages following a wildfire event in August.
+R1012,2022-03-11,SYS-ALBUQUERQUE-12,ALBUQUERQUE-105,Sandia Park Feeder,false,178.9,1.55,115.5,0.6,1400,21,7,Rural Sandia Park feeder interruptions increased due to snow accumulation and tree contact.
+R1013,2021-06-02,SYS-FRESNO-19,,,true,92.8,1.34,69.2,1.2,57200,115,29,"Fresno system-wide reliability reflected seasonal peaks, with most outages in mid-summer."
+R1014,2024-05-02,SYS-BOISE-14,,,true,21.7,0.47,28.5,,38200,34,4,Boise system-wide performance benefited from recent automation upgrades and vegetation management.
+R1015,2022-08-14,SYS-CHARLOTTE-01,CHARLOTTE-017,South End Feeder,false,151.2,2.6,58.1,,3200,25,8,South End feeder interruptions mainly due to construction activities and planned upgrades.
+R1016,2020-03-31,SYS-LITTLE ROCK-04,LITTLEROCK-079,Hillcrest Feeder,false,173.4,1.42,122.1,0.8,1850,19,7,Hillcrest feeder experienced moderate outages following spring storms and pole replacements.
+R1017,2021-12-15,SYS-GREENVILLE-07,GREENVILLE-044,Riverside Feeder,false,51.3,1.01,50.8,8.2,4400,18,39,Riverside feeder had high momentary interruptions due to wind and bird contact incidents.
+R1018,2023-09-07,SYS-COLUMBUS-03,,,true,54.9,1.02,62,1.4,78100,89,21,"Columbus system-wide outages distributed evenly, reflecting robust grid reliability."
+R1019,2020-10-20,SYS-BIRMINGHAM-18,BIRMINGHAM-008,Red Mountain Feeder,false,426.7,1.85,158.3,2.2,925,41,10,Rural Red Mountain feeder faced high interruption rates due to transformer failures and wildlife.
+R1020,2022-12-03,SYS-CHICAGO-16,,,true,49.8,0.77,44.1,,101240,172,32,Chicago system-wide report: urban grid upgrades resulted in lower SAIDI and SAIFI values.
+R1021,2023-02-12,SYS-SALT LAKE-21,,,true,13.2,0.31,42.9,0.3,36000,21,3,Salt Lake City system-wide outages substantially reduced after major substation automation.
+R1022,2021-04-02,SYS-MINNEAPOLIS-23,,,true,77.6,1.12,69.3,1.3,62440,100,18,Minneapolis system-wide: interruptions peaked in early spring due to ice and wind events.
+R1023,2022-02-10,SYS-RALEIGH-24,RALEIGH-211,North Hills Feeder,false,80.1,1.29,62.1,1.6,3900,20,6,"North Hills feeder report: outages mostly weather-related, with some equipment replacements."
+R1024,2020-11-17,SYS-SAN JOSE-25,,,true,83.4,1.51,55.2,,91700,138,25,San Jose system-wide report highlights improved restoration time and reduced momentary interruptions.
+R1025,2023-07-03,SYS-DALLAS-26,DALLAS-031,Oak Lawn Feeder,false,69.2,1.09,63.6,5.9,4200,14,34,Oak Lawn feeder saw high momentary interruptions due to July thunderstorms and wind storms.
+R1026,2024-01-15,SYS-HOUSTON-27,,,true,65.4,1.38,47.9,1.1,98300,123,28,Houston metropolitan system-wide annual report; outages clustered during hurricane season.
+R1027,2021-09-13,SYS-JACKSONVILLE-28,JACKSONVILLE-007,Deerwood Feeder,false,112,1.45,77.2,,2350,17,5,Deerwood feeder outages correspond with tree contact and minor flooding events.
+R1028,2023-10-08,SYS-SAN DIEGO-29,,,true,35,0.82,42.5,0.9,69210,62,10,San Diego system-wide reliability metrics reflect successful vegetation management program.
+R1029,2022-04-18,SYS-PHOENIX-30,PHOENIX-021,Camelback Feeder,false,117.2,1.2,97.7,2.1,1700,18,9,Camelback feeder outages increased due to record high temperatures and equipment overload.
+R1030,2021-07-08,SYS-KANSAS CITY-31,KANSASCITY-011,Liberty North Feeder,false,71.4,1.13,63.2,8.6,3950,15,42,Liberty North feeder had above-average momentary interruptions following severe thunderstorms.
+R1031,2020-09-25,SYS-INDIANAPOLIS-32,,,true,97.1,1.62,59.8,1.7,84300,144,31,Indianapolis system-wide report; fall wind events led to moderate outage frequency.
+R1032,2023-03-06,SYS-TAMPA-33,TAMPA-212,Bayshore Feeder,false,85.6,1.27,67.4,1,2600,13,6,Bayshore feeder experienced scheduled outages due to cable replacement and infrastructure upgrades.
+R1033,2022-09-28,SYS-BOSTON-34,,,true,33.4,0.74,45.1,,39240,25,5,Boston system-wide reliability metrics improved after cable upgrades in central districts.
+R1034,2020-05-27,SYS-AUSTIN-35,AUSTIN-056,Lakeway Feeder,false,162.8,2.2,74,,1200,26,8,Lakeway feeder outages peaked in late spring due to storm surges and transformer replacements.
+R1035,2021-03-03,SYS-MILWAUKEE-36,,,true,56.6,0.89,63.7,1.1,48020,80,15,Milwaukee system-wide outages clustered in late winter following ice accumulation.
+R1036,2024-06-08,SYS-ST LOUIS-37,,,true,69.7,1.42,49.1,1.6,75200,99,24,"St Louis system-wide: moderate outages and momentary interruptions, mostly weather-related."
+R1037,2022-01-17,SYS-SACRAMENTO-38,,,true,37.3,0.68,54.9,0.9,58500,46,8,Sacramento system-wide report confirms reduced interruption frequency after vegetation clearing.
+R1038,2021-10-04,SYS-SANTA FE-39,SANTAFE-111,Canyon Road Feeder,false,65.2,1.02,63.9,7.1,1900,11,37,Canyon Road feeder had high momentary interruptions due to wind and line contact events.
+R1039,2023-12-23,SYS-ORLANDO-40,ORLANDO-019,Lake Eola Feeder,false,94.7,1.15,82.2,0.4,2200,15,3,Lake Eola feeder interruptions mainly due to scheduled maintenance and cable replacements.
+R1040,2022-07-21,SYS-FORT WORTH-41,FORTWORTH-027,Stockyards Feeder,false,75.1,1.1,68.3,,2100,12,5,Stockyards feeder outages primarily attributed to wildlife and pole replacements.
+R1041,2023-06-16,SYS-DES MOINES-42,,,true,28.4,0.66,43.1,0.6,41500,31,6,Des Moines system-wide reliability improvement after new feeder protection deployments.
+R1042,2021-02-25,SYS-TULSA-43,,,true,51.9,0.93,55.8,,37800,58,12,Tulsa system-wide: outages concentrated during winter storms and ice accumulation.
+R1043,2023-01-08,SYS-RENO-44,,,true,66.2,1.39,47.6,1.2,51200,92,15,Reno system-wide reliability metrics reflect mild winter and minimal outage events.
+R1044,2022-05-10,SYS-MADISON-45,MADISON-014,Eastside Feeder,false,69.9,1.08,64.7,6.2,4100,12,31,Eastside feeder high momentary interruptions due to recurring spring wind outages.
+R1045,2021-05-19,SYS-MONTGOMERY-46,MONTGOMERY-021,Pine Hill Feeder,false,92.6,1.34,69.1,0.7,1950,15,4,Pine Hill feeder interruptions mainly from summer storms and wildlife contact.
+R1046,2023-11-16,SYS-LOUISVILLE-47,,,true,61.5,1.15,53.3,1,39560,76,14,Louisville system-wide annual report; outage frequency was below average for the year.
+R1047,2024-02-03,SYS-NEW ORLEANS-48,,,true,53.8,0.96,56.2,,68700,67,11,"New Orleans system-wide summary; outages mostly weather-related, with minimal momentary interruptions."
+R1048,2022-06-12,SYS-EL PASO-49,ELPASO-018,Sunland Park Feeder,false,68.4,1.09,62.8,6.6,3900,13,33,Sunland Park feeder report shows high momentary interruptions during summer wind events.
+R1049,2020-08-25,SYS-ALBANY-50,,,true,57.5,1.04,55.1,1.5,27100,28,7,"Albany system-wide reliability metrics stable, with outages mostly concentrated in late summer."
